@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/equalizer_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const equalizerBlueprint = {
+export const equalizerBlueprint: Item = {
   "id": "equalizer_blueprint",
   "name": {
     "en": "Equalizer Blueprint",
@@ -49,6 +49,6 @@ export const equalizerBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/equalizer.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default equalizerBlueprint;

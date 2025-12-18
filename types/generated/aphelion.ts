@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/aphelion.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const aphelion = {
+export const aphelion: Item = {
   "id": "aphelion",
   "name": {
     "en": "Aphelion",
@@ -151,6 +151,6 @@ export const aphelion = {
   "imageFilename": "https://cdn.arctracker.io/items/aphelion.png",
   "updatedAt": "12/07/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default aphelion;

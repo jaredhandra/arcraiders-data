@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vulcano_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const vulcanoBlueprint = {
+export const vulcanoBlueprint: Item = {
   "id": "vulcano_blueprint",
   "name": {
     "en": "Vulcano Blueprint",
@@ -49,6 +49,6 @@ export const vulcanoBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default vulcanoBlueprint;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/laboratory_reagents.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const laboratoryReagents = {
+export const laboratoryReagents: Item = {
   "id": "laboratory_reagents",
   "name": {
     "en": "Laboratory Reagents",
@@ -54,6 +54,6 @@ export const laboratoryReagents = {
   "foundIn": "Medical",
   "imageFilename": "https://cdn.arctracker.io/items/laboratory_reagents.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default laboratoryReagents;

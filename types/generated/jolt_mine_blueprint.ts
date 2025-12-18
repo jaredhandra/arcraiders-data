@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/jolt_mine_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const joltMineBlueprint = {
+export const joltMineBlueprint: Item = {
   "id": "jolt_mine_blueprint",
   "name": {
     "en": "Jolt Mine Blueprint",
@@ -50,6 +50,6 @@ export const joltMineBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/jolt_mine.png",
   "rarity": "Legendary",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default joltMineBlueprint;

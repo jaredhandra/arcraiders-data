@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/extended_light_mag_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const extendedLightMagI = {
+export const extendedLightMagI: Item = {
   "id": "extended_light_mag_i",
   "name": {
     "en": "Extended Light Mag I",
@@ -90,6 +90,6 @@ export const extendedLightMagI = {
     "steel_spring": 1
   },
   "craftBench": "weapon_bench"
-} as Item;
+};
 
 export default extendedLightMagI;

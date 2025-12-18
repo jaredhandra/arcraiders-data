@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/headphones.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const headphones = {
+export const headphones: Item = {
   "id": "headphones",
   "name": {
     "en": "Headphones",
@@ -55,6 +55,6 @@ export const headphones = {
   "foundIn": "Residential, Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/headphones.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default headphones;

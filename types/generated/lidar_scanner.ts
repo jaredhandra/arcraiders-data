@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/lidar_scanner.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lidarScanner = {
+export const lidarScanner: Item = {
   "name": {
     "en": "Lidar Scanner",
     "de": "Lidar-Scanner",
@@ -48,6 +48,6 @@ export const lidarScanner = {
   "imageFilename": "https://cdn.arctracker.io/items/lidar_scanner.png",
   "rarity": "Common",
   "updatedAt": "11/17/2025"
-} as Item;
+};
 
 export default lidarScanner;

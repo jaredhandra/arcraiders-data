@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/defibrillator_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const defibrillatorBlueprint = {
+export const defibrillatorBlueprint: Item = {
   "id": "defibrillator_blueprint",
   "name": {
     "en": "Defibrillator Blueprint",
@@ -50,6 +50,6 @@ export const defibrillatorBlueprint = {
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default defibrillatorBlueprint;

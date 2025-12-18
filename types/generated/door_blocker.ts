@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/door_blocker.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const doorBlocker = {
+export const doorBlocker: Item = {
   "id": "door_blocker",
   "name": {
     "en": "Door Blocker",
@@ -58,6 +58,6 @@ export const doorBlocker = {
     "rubber_parts": 3
   },
   "craftBench": "utility_bench"
-} as Item;
+};
 
 export default doorBlocker;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/dried_out_arc_resin.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const driedOutArcResin = {
+export const driedOutArcResin: Item = {
   "id": "dried_out_arc_resin",
   "name": {
     "en": "Dried-Out ARC Resin",
@@ -54,6 +54,6 @@ export const driedOutArcResin = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/dried_out_arc_resin.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default driedOutArcResin;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/advanced_electrical_components.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const advancedElectricalComponents = {
+export const advancedElectricalComponents: Item = {
   "id": "advanced_electrical_components",
   "name": {
     "en": "Advanced Electrical Components",
@@ -63,6 +63,6 @@ export const advancedElectricalComponents = {
     "electrical_components": 2
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default advancedElectricalComponents;

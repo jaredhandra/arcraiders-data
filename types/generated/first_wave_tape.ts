@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/first_wave_tape.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const firstWaveTape = {
+export const firstWaveTape: Item = {
   "name": {
     "en": "First Wave Tape",
     "de": "Erste-Welle-Band",
@@ -48,6 +48,6 @@ export const firstWaveTape = {
   "imageFilename": "https://cdn.arctracker.io/items/first_wave_tape.png",
   "rarity": "Common",
   "updatedAt": "11/17/2025"
-} as Item;
+};
 
 export default firstWaveTape;

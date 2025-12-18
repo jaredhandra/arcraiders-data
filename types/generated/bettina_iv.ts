@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/bettina_iv.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const bettinaIv = {
+export const bettinaIv: Item = {
   "id": "bettina_iv",
   "name": {
     "en": "Bettina IV",
@@ -204,6 +204,6 @@ export const bettinaIv = {
     "heavy_gun_parts": 2
   },
   "isWeapon": true
-} as Item;
+};
 
 export default bettinaIv;

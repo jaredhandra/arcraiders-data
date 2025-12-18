@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/prickly_pear.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const pricklyPear = {
+export const pricklyPear: Item = {
   "id": "prickly_pear",
   "name": {
     "en": "Prickly Pear",
@@ -53,6 +53,6 @@ export const pricklyPear = {
   },
   "stackSize": 10,
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default pricklyPear;

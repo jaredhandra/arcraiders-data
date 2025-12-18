@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vertical_grip_iii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const verticalGripIii = {
+export const verticalGripIii: Item = {
   "id": "vertical_grip_iii",
   "name": {
     "en": "Vertical Grip III",
@@ -98,6 +98,6 @@ export const verticalGripIii = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_iii.png",
   "updatedAt": "11/07/2025"
-} as Item;
+};
 
 export default verticalGripIii;

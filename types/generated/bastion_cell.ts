@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/bastion_cell.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const bastionCell = {
+export const bastionCell: Item = {
   "id": "bastion_cell",
   "name": {
     "en": "Bastion Cell",
@@ -58,6 +58,6 @@ export const bastionCell = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/bastion_cell.png",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default bastionCell;

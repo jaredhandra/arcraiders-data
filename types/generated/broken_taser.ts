@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/broken_taser.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const brokenTaser = {
+export const brokenTaser: Item = {
   "id": "broken_taser",
   "name": {
     "en": "Broken Taser",
@@ -55,6 +55,6 @@ export const brokenTaser = {
   "foundIn": "Security",
   "updatedAt": "11/11/2025",
   "imageFilename": "https://cdn.arctracker.io/items/broken_taser.png"
-} as Item;
+};
 
 export default brokenTaser;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/gas_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const gasGrenade = {
+export const gasGrenade: Item = {
   "id": "gas_grenade",
   "name": {
     "en": "Gas Grenade",
@@ -124,6 +124,6 @@ export const gasGrenade = {
     "rubber_parts": 2
   },
   "craftBench": "explosives_bench"
-} as Item;
+};
 
 export default gasGrenade;

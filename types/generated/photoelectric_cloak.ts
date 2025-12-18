@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/photoelectric_cloak.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const photoelectricCloak = {
+export const photoelectricCloak: Item = {
   "id": "photoelectric_cloak",
   "name": {
     "en": "Photoelectric Cloak",
@@ -84,6 +84,6 @@ export const photoelectricCloak = {
   "salvagesInto": {
     "advanced_electrical_components": 1
   }
-} as Item;
+};
 
 export default photoelectricCloak;

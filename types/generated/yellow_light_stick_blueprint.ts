@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/yellow_light_stick_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const yellowLightStickBlueprint = {
+export const yellowLightStickBlueprint: Item = {
   "id": "yellow_light_stick_blueprint",
   "name": {
     "en": "Yellow Light Stick Blueprint",
@@ -50,6 +50,6 @@ export const yellowLightStickBlueprint = {
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/yellow_light_stick.png",
   "updatedAt": "11/13/2025"
-} as Item;
+};
 
 export default yellowLightStickBlueprint;

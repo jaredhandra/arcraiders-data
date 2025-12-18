@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/poster_of_natural_wonders.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const posterOfNaturalWonders = {
+export const posterOfNaturalWonders: Item = {
   "id": "poster_of_natural_wonders",
   "name": {
     "en": "Poster of Natural Wonders",
@@ -51,6 +51,6 @@ export const posterOfNaturalWonders = {
   "foundIn": "Residential, Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/poster_of_natural_wonders.png",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default posterOfNaturalWonders;

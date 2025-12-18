@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/leaper_pulse_unit.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const leaperPulseUnit = {
+export const leaperPulseUnit: Item = {
   "id": "leaper_pulse_unit",
   "name": {
     "en": "Leaper Pulse Unit",
@@ -99,6 +99,6 @@ export const leaperPulseUnit = {
   "stackSize": 3,
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/leaper_pulse_unit.png"
-} as Item;
+};
 
 export default leaperPulseUnit;

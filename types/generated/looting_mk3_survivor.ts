@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/looting_mk3_survivor.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lootingMk3Survivor = {
+export const lootingMk3Survivor: Item = {
   "id": "looting_mk3_survivor",
   "name": {
     "en": "Looting Mk. 3 (Survivor)",
@@ -124,6 +124,6 @@ export const lootingMk3Survivor = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor.png",
   "updatedAt": "11/11/2025"
-} as Item;
+};
 
 export default lootingMk3Survivor;

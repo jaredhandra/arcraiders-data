@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tempest_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tempestIi = {
+export const tempestIi: Item = {
   "id": "tempest_ii",
   "name": {
     "en": "Tempest II",
@@ -208,6 +208,6 @@ export const tempestIi = {
   "imageFilename": "https://cdn.arctracker.io/items/tempest.png",
   "updatedAt": "11/11/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default tempestIi;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/stella_montis_security_checkpoint_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const stellaMontisSecurityCheckpointKey = {
+export const stellaMontisSecurityCheckpointKey: Item = {
   "name": {
     "en": "Stella Montis Security Checkpoint Key",
     "de": "Schlüssel zur Sicherheitskontrolle in Stella Montis",
@@ -49,6 +49,6 @@ export const stellaMontisSecurityCheckpointKey = {
   "weightKg": 0.25,
   "imageFilename": "https://cdn.arctracker.io/items/stella_montis_security_checkpoint_key.png",
   "updatedAt": "11/13/2025"
-} as Item;
+};
 
 export default stellaMontisSecurityCheckpointKey;

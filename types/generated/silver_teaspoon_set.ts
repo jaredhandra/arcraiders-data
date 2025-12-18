@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/silver_teaspoon_set.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const silverTeaspoonSet = {
+export const silverTeaspoonSet: Item = {
   "id": "silver_teaspoon_set",
   "name": {
     "en": "Silver Teaspoon Set",
@@ -52,6 +52,6 @@ export const silverTeaspoonSet = {
   "stackSize": 3,
   "foundIn": "Residential, Old World, Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/silver_teaspoon_set.png"
-} as Item;
+};
 
 export default silverTeaspoonSet;

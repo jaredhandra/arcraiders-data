@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/hairpin_iv.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const hairpinIv = {
+export const hairpinIv: Item = {
   "id": "hairpin_iv",
   "name": {
     "en": "Hairpin IV",
@@ -232,6 +232,6 @@ export const hairpinIv = {
     "simple_gun_parts": 1
   },
   "isWeapon": true
-} as Item;
+};
 
 export default hairpinIv;

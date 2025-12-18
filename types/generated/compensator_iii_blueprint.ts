@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/compensator_iii_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const compensatorIiiBlueprint = {
+export const compensatorIiiBlueprint: Item = {
   "id": "compensator_iii_blueprint",
   "name": {
     "en": "Compensator III Blueprint",
@@ -49,6 +49,6 @@ export const compensatorIiiBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/compensator_iii.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default compensatorIiiBlueprint;

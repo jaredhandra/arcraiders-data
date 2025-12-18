@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/noisemaker.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const noisemaker = {
+export const noisemaker: Item = {
   "id": "noisemaker",
   "name": {
     "en": "Noisemaker",
@@ -94,6 +94,6 @@ export const noisemaker = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/noisemaker.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default noisemaker;

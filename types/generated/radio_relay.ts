@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/radio_relay.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const radioRelay = {
+export const radioRelay: Item = {
   "name": {
     "en": "Radio Relay",
     "de": "Radio-Relais",
@@ -55,6 +55,6 @@ export const radioRelay = {
     "speaker_component": 2,
     "sensors": 2
   }
-} as Item;
+};
 
 export default radioRelay;

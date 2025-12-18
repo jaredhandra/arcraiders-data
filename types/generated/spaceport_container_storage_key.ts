@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/spaceport_container_storage_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const spaceportContainerStorageKey = {
+export const spaceportContainerStorageKey: Item = {
   "id": "spaceport_container_storage_key",
   "name": {
     "en": "Spaceport Container Storage Key",
@@ -51,6 +51,6 @@ export const spaceportContainerStorageKey = {
   "rarity": "Rare",
   "weightKg": 0.25,
   "stackSize": 1
-} as Item;
+};
 
 export default spaceportContainerStorageKey;

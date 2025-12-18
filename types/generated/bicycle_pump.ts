@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/bicycle_pump.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const bicyclePump = {
+export const bicyclePump: Item = {
   "id": "bicycle_pump",
   "name": {
     "en": "Bicycle Pump",
@@ -58,6 +58,6 @@ export const bicyclePump = {
   "imageFilename": "https://cdn.arctracker.io/items/bicycle_pump.png",
   "updatedAt": "11/01/2025",
   "stackSize": 3
-} as Item;
+};
 
 export default bicyclePump;

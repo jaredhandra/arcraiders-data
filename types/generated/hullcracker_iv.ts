@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/hullcracker_iv.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const hullcrackerIv = {
+export const hullcrackerIv: Item = {
   "id": "hullcracker_iv",
   "name": {
     "en": "Hullcracker IV",
@@ -194,6 +194,6 @@ export const hullcrackerIv = {
   "imageFilename": "https://cdn.arctracker.io/items/hullcracker.png",
   "updatedAt": "11/12/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default hullcrackerIv;

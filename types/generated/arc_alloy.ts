@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/arc_alloy.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const arcAlloy = {
+export const arcAlloy: Item = {
   "id": "arc_alloy",
   "name": {
     "en": "ARC Alloy",
@@ -54,6 +54,6 @@ export const arcAlloy = {
   "stackSize": 15,
   "foundIn": "ARC",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default arcAlloy;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tattered_arc_lining.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tatteredArcLining = {
+export const tatteredArcLining: Item = {
   "id": "tattered_arc_lining",
   "name": {
     "en": "Tattered Arc Lining",
@@ -54,6 +54,6 @@ export const tatteredArcLining = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/tattered_arc_lining.png",
   "updatedAt": "11/06/2025"
-} as Item;
+};
 
 export default tatteredArcLining;

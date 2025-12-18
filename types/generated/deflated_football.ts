@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/deflated_football.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const deflatedFootball = {
+export const deflatedFootball: Item = {
   "id": "deflated_football",
   "name": {
     "en": "Deflated Football",
@@ -57,6 +57,6 @@ export const deflatedFootball = {
   "stackSize": 3,
   "foundIn": "Residential",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default deflatedFootball;

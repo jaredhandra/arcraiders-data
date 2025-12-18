@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/explosive_mine_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const explosiveMineBlueprint = {
+export const explosiveMineBlueprint: Item = {
   "id": "explosive_mine_blueprint",
   "name": {
     "en": "Explosive Mine Blueprint",
@@ -49,6 +49,6 @@ export const explosiveMineBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/explosive_mine.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default explosiveMineBlueprint;

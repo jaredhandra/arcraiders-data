@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/empty_wine_bottle.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const emptyWineBottle = {
+export const emptyWineBottle: Item = {
   "id": "empty_wine_bottle",
   "name": {
     "en": "Empty Wine Bottle",
@@ -51,6 +51,6 @@ export const emptyWineBottle = {
   "imageFilename": "https://cdn.arctracker.io/items/empty_wine_bottle.png",
   "rarity": "Common",
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default emptyWineBottle;

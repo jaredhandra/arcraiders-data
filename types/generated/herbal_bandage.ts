@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/herbal_bandage.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const herbalBandage = {
+export const herbalBandage: Item = {
   "id": "herbal_bandage",
   "name": {
     "en": "Herbal Bandage",
@@ -124,6 +124,6 @@ export const herbalBandage = {
     "assorted_seeds": 2,
     "fabric": 5
   }
-} as Item;
+};
 
 export default herbalBandage;

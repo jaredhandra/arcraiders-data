@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vertical_grip_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const verticalGripI = {
+export const verticalGripI: Item = {
   "id": "vertical_grip_i",
   "name": {
     "en": "Vertical Grip I",
@@ -77,6 +77,6 @@ export const verticalGripI = {
     "duct_tape": 1
   },
   "craftBench": "weapon_bench"
-} as Item;
+};
 
 export default verticalGripI;

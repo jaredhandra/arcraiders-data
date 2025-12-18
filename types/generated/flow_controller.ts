@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/flow_controller.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const flowController = {
+export const flowController: Item = {
   "name": {
     "en": "Flow Controller",
     "de": "Durchflussregler",
@@ -55,6 +55,6 @@ export const flowController = {
     "advanced_mechanical_components": 1,
     "sensors": 1
   }
-} as Item;
+};
 
 export default flowController;

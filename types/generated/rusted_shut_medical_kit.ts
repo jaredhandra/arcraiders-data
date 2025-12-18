@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rusted_shut_medical_kit.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rustedShutMedicalKit = {
+export const rustedShutMedicalKit: Item = {
   "id": "rusted_shut_medical_kit",
   "name": {
     "en": "Rusted Shut Medical Kit",
@@ -55,6 +55,6 @@ export const rustedShutMedicalKit = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/rusted_shut_medical_kit.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default rustedShutMedicalKit;

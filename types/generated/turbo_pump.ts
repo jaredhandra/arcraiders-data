@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/turbo_pump.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const turboPump = {
+export const turboPump: Item = {
   "id": "turbo_pump",
   "name": {
     "en": "Turbo Pump",
@@ -55,6 +55,6 @@ export const turboPump = {
   "foundIn": "Exodus",
   "updatedAt": "11/04/2025",
   "imageFilename": "https://cdn.arctracker.io/items/turbo_pump.png"
-} as Item;
+};
 
 export default turboPump;

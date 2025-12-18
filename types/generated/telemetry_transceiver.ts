@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/telemetry_transceiver.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const telemetryTransceiver = {
+export const telemetryTransceiver: Item = {
   "name": {
     "en": "Telemetry Transceiver",
     "de": "Telemetrie-Empfänger",
@@ -55,6 +55,6 @@ export const telemetryTransceiver = {
     "advanced_electrical_components": 1,
     "processor": 1
   }
-} as Item;
+};
 
 export default telemetryTransceiver;

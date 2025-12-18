@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/arc_performance_steel.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const arcPerformanceSteel = {
+export const arcPerformanceSteel: Item = {
   "id": "arc_performance_steel",
   "name": {
     "en": "ARC Performance Steel",
@@ -57,6 +57,6 @@ export const arcPerformanceSteel = {
   "imageFilename": "https://cdn.arctracker.io/items/arc_performance_steel.png",
   "updatedAt": "11/01/2025",
   "stackSize": 3
-} as Item;
+};
 
 export default arcPerformanceSteel;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/agave.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const agave = {
+export const agave: Item = {
   "id": "agave",
   "name": {
     "en": "Agave",
@@ -116,6 +116,6 @@ export const agave = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/agave.png",
   "updatedAt": "11/05/2025"
-} as Item;
+};
 
 export default agave;

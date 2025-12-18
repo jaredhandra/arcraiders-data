@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/deadline_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const deadlineBlueprint = {
+export const deadlineBlueprint: Item = {
   "id": "deadline_blueprint",
   "name": {
     "en": "Deadline Blueprint",
@@ -50,6 +50,6 @@ export const deadlineBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/deadline.png",
   "rarity": "Legendary",
   "updatedAt": "11/20/2025"
-} as Item;
+};
 
 export default deadlineBlueprint;

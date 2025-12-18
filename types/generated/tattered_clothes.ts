@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tattered_clothes.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tatteredClothes = {
+export const tatteredClothes: Item = {
   "id": "tattered_clothes",
   "name": {
     "en": "Tattered Clothes",
@@ -55,6 +55,6 @@ export const tatteredClothes = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/tattered_clothes.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default tatteredClothes;

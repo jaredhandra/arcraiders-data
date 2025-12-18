@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tagging_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const taggingGrenade = {
+export const taggingGrenade: Item = {
   "id": "tagging_grenade",
   "name": {
     "en": "Tagging Grenade",
@@ -108,6 +108,6 @@ export const taggingGrenade = {
   },
   "stationLevelRequired": 3,
   "blueprintLocked": true
-} as Item;
+};
 
 export default taggingGrenade;

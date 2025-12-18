@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/looting_mk3_survivor_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lootingMk3SurvivorBlueprint = {
+export const lootingMk3SurvivorBlueprint: Item = {
   "id": "looting_mk3_survivor_blueprint",
   "name": {
     "en": "Looting Mk. 3 (Survivor) Blueprint",
@@ -49,6 +49,6 @@ export const lootingMk3SurvivorBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/looting_mk3_survivor_blueprint.png",
   "rarity": "Legendary",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default lootingMk3SurvivorBlueprint;

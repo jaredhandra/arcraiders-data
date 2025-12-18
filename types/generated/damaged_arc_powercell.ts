@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/damaged_arc_powercell.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damagedArcPowercell = {
+export const damagedArcPowercell: Item = {
   "id": "damaged_arc_powercell",
   "name": {
     "en": "Damaged ARC Powercell",
@@ -57,6 +57,6 @@ export const damagedArcPowercell = {
   "foundIn": "ARC",
   "updatedAt": "11/10/2025",
   "imageFilename": "https://cdn.arctracker.io/items/damaged_arc_powercell.png"
-} as Item;
+};
 
 export default damagedArcPowercell;

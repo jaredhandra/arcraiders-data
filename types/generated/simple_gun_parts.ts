@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/simple_gun_parts.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const simpleGunParts = {
+export const simpleGunParts: Item = {
   "id": "simple_gun_parts",
   "name": {
     "en": "Simple Gun Parts",
@@ -54,6 +54,6 @@ export const simpleGunParts = {
   "stackSize": 10,
   "foundIn": "Raider, Security",
   "imageFilename": "https://cdn.arctracker.io/items/simple_gun_parts.png"
-} as Item;
+};
 
 export default simpleGunParts;

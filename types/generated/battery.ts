@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/battery.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const battery = {
+export const battery: Item = {
   "id": "battery",
   "name": {
     "en": "Battery",
@@ -57,6 +57,6 @@ export const battery = {
   "stackSize": 15,
   "weightKg": 0.25,
   "updatedAt": "11/11/2025"
-} as Item;
+};
 
 export default battery;

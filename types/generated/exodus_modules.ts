@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/exodus_modules.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const exodusModules = {
+export const exodusModules: Item = {
   "id": "exodus_modules",
   "name": {
     "en": "Exodus Modules",
@@ -58,6 +58,6 @@ export const exodusModules = {
   "imageFilename": "https://cdn.arctracker.io/items/exodus_modules.png",
   "value": 2750,
   "updatedAt": "11/05/2025"
-} as Item;
+};
 
 export default exodusModules;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/explosive_mine.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const explosiveMine = {
+export const explosiveMine: Item = {
   "id": "explosive_mine",
   "name": {
     "en": "Explosive Mine",
@@ -105,6 +105,6 @@ export const explosiveMine = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/explosive_mine.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default explosiveMine;

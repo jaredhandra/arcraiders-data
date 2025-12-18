@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/angled_grip_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const angledGripI = {
+export const angledGripI: Item = {
   "id": "angled_grip_i",
   "name": {
     "en": "Angled Grip I",
@@ -77,6 +77,6 @@ export const angledGripI = {
     "duct_tape": 1
   },
   "craftBench": "weapon_bench"
-} as Item;
+};
 
 export default angledGripI;

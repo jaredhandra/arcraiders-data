@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/anvil_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const anvilBlueprint = {
+export const anvilBlueprint: Item = {
   "id": "anvil_blueprint",
   "name": {
     "en": "Anvil Blueprint",
@@ -49,6 +49,6 @@ export const anvilBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/anvil_blueprint.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default anvilBlueprint;

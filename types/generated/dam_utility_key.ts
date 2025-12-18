@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/dam_utility_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damUtilityKey = {
+export const damUtilityKey: Item = {
   "id": "dam_utility_key",
   "name": {
     "en": "Dam Utility Key",
@@ -50,6 +50,6 @@ export const damUtilityKey = {
   "weightKg": 0.25,
   "stackSize": 1,
   "rarity": "Uncommon"
-} as Item;
+};
 
 export default damUtilityKey;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/number_plate.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const numberPlate = {
+export const numberPlate: Item = {
   "id": "number_plate",
   "name": {
     "en": "Number Plate",
@@ -57,6 +57,6 @@ export const numberPlate = {
   "stackSize": 3,
   "foundIn": "Mechanical",
   "imageFilename": "https://cdn.arctracker.io/items/number_plate.png"
-} as Item;
+};
 
 export default numberPlate;

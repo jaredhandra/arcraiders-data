@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/complex_gun_parts_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const complexGunPartsBlueprint = {
+export const complexGunPartsBlueprint: Item = {
   "id": "complex_gun_parts_blueprint",
   "name": {
     "en": "Complex Gun Parts Blueprint",
@@ -49,6 +49,6 @@ export const complexGunPartsBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/complex_gun_parts_blueprint.png",
   "rarity": "Legendary",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default complexGunPartsBlueprint;

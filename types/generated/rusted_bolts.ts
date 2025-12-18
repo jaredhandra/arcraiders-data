@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rusted_bolts.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rustedBolts = {
+export const rustedBolts: Item = {
   "id": "rusted_bolts",
   "name": {
     "en": "Rusted Bolts",
@@ -57,6 +57,6 @@ export const rustedBolts = {
   "stackSize": 3,
   "foundIn": "Industrial, Mechanical",
   "imageFilename": "https://cdn.arctracker.io/items/rusted_bolts.png"
-} as Item;
+};
 
 export default rustedBolts;

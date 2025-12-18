@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/film_reel.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const filmReel = {
+export const filmReel: Item = {
   "id": "film_reel",
   "name": {
     "en": "Film Reel",
@@ -52,6 +52,6 @@ export const filmReel = {
   "foundIn": "Old World, Residential",
   "updatedAt": "11/03/2025",
   "imageFilename": "https://cdn.arctracker.io/items/film_reel.png"
-} as Item;
+};
 
 export default filmReel;

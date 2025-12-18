@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/dam_surveillance_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damSurveillanceKey = {
+export const damSurveillanceKey: Item = {
   "id": "dam_surveillance_key",
   "name": {
     "en": "Dam Surveillance Key",
@@ -49,6 +49,6 @@ export const damSurveillanceKey = {
   "weightKg": 0.25,
   "imageFilename": "https://cdn.arctracker.io/items/dam_surveillance_key.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default damSurveillanceKey;

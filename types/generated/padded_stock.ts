@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/padded_stock.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const paddedStock = {
+export const paddedStock: Item = {
   "name": {
     "en": "Padded Stock",
     "de": "Gepolsterter Schaft",
@@ -177,6 +177,6 @@ export const paddedStock = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/padded_stock.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default paddedStock;

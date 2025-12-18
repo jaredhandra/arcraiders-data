@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/shield_recharger.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const shieldRecharger = {
+export const shieldRecharger: Item = {
   "id": "shield_recharger",
   "name": {
     "en": "Shield Recharger",
@@ -126,6 +126,6 @@ export const shieldRecharger = {
   "recyclesInto": {
     "rubber_parts": 4
   }
-} as Item;
+};
 
 export default shieldRecharger;

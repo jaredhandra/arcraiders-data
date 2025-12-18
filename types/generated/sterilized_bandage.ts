@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/sterilized_bandage.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const sterilizedBandage = {
+export const sterilizedBandage: Item = {
   "id": "sterilized_bandage",
   "name": {
     "en": "Sterilized Bandage",
@@ -120,6 +120,6 @@ export const sterilizedBandage = {
     "durable_cloth": 2
   },
   "craftBench": "med_station"
-} as Item;
+};
 
 export default sterilizedBandage;

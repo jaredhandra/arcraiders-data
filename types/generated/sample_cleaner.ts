@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/sample_cleaner.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const sampleCleaner = {
+export const sampleCleaner: Item = {
   "name": {
     "en": "Sample Cleaner",
     "de": "Probenreiniger",
@@ -55,6 +55,6 @@ export const sampleCleaner = {
     "electrical_components": 2,
     "assorted_seeds": 14
   }
-} as Item;
+};
 
 export default sampleCleaner;

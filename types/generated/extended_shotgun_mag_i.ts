@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/extended_shotgun_mag_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const extendedShotgunMagI = {
+export const extendedShotgunMagI: Item = {
   "id": "extended_shotgun_mag_i",
   "name": {
     "en": "Extended Shotgun Mag I",
@@ -80,6 +80,6 @@ export const extendedShotgunMagI = {
     "plastic_parts": 6
   },
   "craftBench": "weapon_bench"
-} as Item;
+};
 
 export default extendedShotgunMagI;

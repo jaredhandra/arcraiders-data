@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/cracked_bioscanner.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const crackedBioscanner = {
+export const crackedBioscanner: Item = {
   "id": "cracked_bioscanner",
   "name": {
     "en": "Cracked Bioscanner",
@@ -55,6 +55,6 @@ export const crackedBioscanner = {
   "foundIn": "Medical",
   "imageFilename": "https://cdn.arctracker.io/items/cracked_bioscanner.png",
   "updatedAt": "11/14/2025"
-} as Item;
+};
 
 export default crackedBioscanner;

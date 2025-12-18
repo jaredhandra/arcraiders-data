@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/duct_tape.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ductTape = {
+export const ductTape: Item = {
   "id": "duct_tape",
   "name": {
     "en": "Duct Tape",
@@ -54,6 +54,6 @@ export const ductTape = {
   "stackSize": 15,
   "foundIn": "Residential, Commercial",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default ductTape;

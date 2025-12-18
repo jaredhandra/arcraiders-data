@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/muzzle_brake_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const muzzleBrakeI = {
+export const muzzleBrakeI: Item = {
   "id": "muzzle_brake_i",
   "name": {
     "en": "Muzzle Brake I",
@@ -101,6 +101,6 @@ export const muzzleBrakeI = {
     "wires": 1
   },
   "craftBench": "weapon_bench"
-} as Item;
+};
 
 export default muzzleBrakeI;

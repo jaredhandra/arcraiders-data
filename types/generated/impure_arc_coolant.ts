@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/impure_arc_coolant.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const impureArcCoolant = {
+export const impureArcCoolant: Item = {
   "id": "impure_arc_coolant",
   "name": {
     "en": "Impure ARC Coolant",
@@ -54,6 +54,6 @@ export const impureArcCoolant = {
   "stackSize": 3,
   "imageFilename": "https://cdn.arctracker.io/items/impure_arc_coolant.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default impureArcCoolant;

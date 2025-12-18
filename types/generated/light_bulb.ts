@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/light_bulb.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lightBulb = {
+export const lightBulb: Item = {
   "id": "light_bulb",
   "name": {
     "en": "Light Bulb",
@@ -51,6 +51,6 @@ export const lightBulb = {
   "stackSize": 3,
   "foundIn": "Electrical",
   "imageFilename": "https://cdn.arctracker.io/items/light_bulb.png"
-} as Item;
+};
 
 export default lightBulb;

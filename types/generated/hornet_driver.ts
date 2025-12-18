@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/hornet_driver.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const hornetDriver = {
+export const hornetDriver: Item = {
   "id": "hornet_driver",
   "name": {
     "en": "Hornet Driver",
@@ -124,6 +124,6 @@ export const hornetDriver = {
   "weightKg": 0.75,
   "stackSize": 3,
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default hornetDriver;

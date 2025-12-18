@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/shaker.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const shaker = {
+export const shaker: Item = {
   "id": "shaker",
   "name": {
     "en": "Shaker",
@@ -50,6 +50,6 @@ export const shaker = {
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/shaker.png",
   "updatedAt": "12/16/2025"
-} as Item;
+};
 
 export default shaker;

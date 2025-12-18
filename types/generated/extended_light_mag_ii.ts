@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/extended_light_mag_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const extendedLightMagIi = {
+export const extendedLightMagIi: Item = {
   "id": "extended_light_mag_ii",
   "name": {
     "en": "Extended Light Mag II",
@@ -83,6 +83,6 @@ export const extendedLightMagIi = {
   "craftBench": "weapon_bench",
   "stationLevelRequired": 2,
   "blueprintLocked": true
-} as Item;
+};
 
 export default extendedLightMagIi;

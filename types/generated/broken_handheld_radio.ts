@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/broken_handheld_radio.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const brokenHandheldRadio = {
+export const brokenHandheldRadio: Item = {
   "id": "broken_handheld_radio",
   "name": {
     "en": "Broken Handheld Radio",
@@ -55,6 +55,6 @@ export const brokenHandheldRadio = {
   "stackSize": 3,
   "foundIn": "Security",
   "imageFilename": "https://cdn.arctracker.io/items/broken_handheld_radio.png"
-} as Item;
+};
 
 export default brokenHandheldRadio;

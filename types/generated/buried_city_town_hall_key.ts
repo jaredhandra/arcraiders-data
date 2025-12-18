@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/buried_city_town_hall_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const buriedCityTownHallKey = {
+export const buriedCityTownHallKey: Item = {
   "id": "buried_city_town_hall_key",
   "name": {
     "en": "Buried City Town Hall Key",
@@ -51,6 +51,6 @@ export const buriedCityTownHallKey = {
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/buried_city_town_hall_key.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default buriedCityTownHallKey;

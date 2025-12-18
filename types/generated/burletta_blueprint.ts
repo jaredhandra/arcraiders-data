@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/burletta_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const burlettaBlueprint = {
+export const burlettaBlueprint: Item = {
   "id": "burletta_blueprint",
   "name": {
     "en": "Burletta Blueprint",
@@ -47,6 +47,6 @@ export const burlettaBlueprint = {
   "updatedAt": "11/12/2025",
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/burletta.png"
-} as Item;
+};
 
 export default burlettaBlueprint;

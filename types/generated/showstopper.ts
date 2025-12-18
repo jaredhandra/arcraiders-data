@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/showstopper.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const showstopper = {
+export const showstopper: Item = {
   "id": "showstopper",
   "name": {
     "en": "Showstopper",
@@ -126,6 +126,6 @@ export const showstopper = {
   "craftBench": "explosives_bench",
   "stationLevelRequired": 3,
   "blueprintLocked": true
-} as Item;
+};
 
 export default showstopper;

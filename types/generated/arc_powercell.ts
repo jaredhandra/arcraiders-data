@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/arc_powercell.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const arcPowercell = {
+export const arcPowercell: Item = {
   "id": "arc_powercell",
   "name": {
     "en": "ARC Powercell",
@@ -117,6 +117,6 @@ export const arcPowercell = {
       "value": "3s"
     }
   }
-} as Item;
+};
 
 export default arcPowercell;

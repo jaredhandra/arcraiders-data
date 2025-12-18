@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/processor.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const processor = {
+export const processor: Item = {
   "id": "processor",
   "name": {
     "en": "Processor",
@@ -55,6 +55,6 @@ export const processor = {
   "foundIn": "Technological",
   "imageFilename": "https://cdn.arctracker.io/items/processor.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default processor;

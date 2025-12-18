@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/silencer_ii_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const silencerIiBlueprint = {
+export const silencerIiBlueprint: Item = {
   "id": "silencer_ii_blueprint",
   "name": {
     "en": "Silencer II Blueprint",
@@ -49,6 +49,6 @@ export const silencerIiBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/silencer_ii.png",
   "updatedAt": "11/14/2025"
-} as Item;
+};
 
 export default silencerIiBlueprint;

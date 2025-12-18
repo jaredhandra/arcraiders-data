@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/music_box.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const musicBox = {
+export const musicBox: Item = {
   "id": "music_box",
   "name": {
     "en": "Music Box",
@@ -51,6 +51,6 @@ export const musicBox = {
   "stackSize": 3,
   "foundIn": "Old World, Residential, Commercial",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default musicBox;

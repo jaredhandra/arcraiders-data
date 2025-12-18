@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/sentinel_firing_core.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const sentinelFiringCore = {
+export const sentinelFiringCore: Item = {
   "id": "sentinel_firing_core",
   "name": {
     "en": "Sentinel Firing Core",
@@ -58,6 +58,6 @@ export const sentinelFiringCore = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/sentinel_firing_core.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default sentinelFiringCore;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/patrol_car_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const patrolCarKey = {
+export const patrolCarKey: Item = {
   "id": "patrol_car_key",
   "name": {
     "en": "Patrol Car Key",
@@ -51,6 +51,6 @@ export const patrolCarKey = {
   "foundIn": "Security",
   "imageFilename": "https://cdn.arctracker.io/items/patrol_car_key.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default patrolCarKey;

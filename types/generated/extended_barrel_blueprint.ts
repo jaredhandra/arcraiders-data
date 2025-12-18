@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/extended_barrel_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const extendedBarrelBlueprint = {
+export const extendedBarrelBlueprint: Item = {
   "id": "extended_barrel_blueprint",
   "name": {
     "en": "Extended Barrel Blueprint",
@@ -49,6 +49,6 @@ export const extendedBarrelBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/extended_barrel.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default extendedBarrelBlueprint;

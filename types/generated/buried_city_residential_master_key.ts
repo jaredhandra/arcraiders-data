@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/buried_city_residential_master_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const buriedCityResidentialMasterKey = {
+export const buriedCityResidentialMasterKey: Item = {
   "id": "buried_city_residential_master_key",
   "name": {
     "en": "Buried City Residential Master Key",
@@ -50,6 +50,6 @@ export const buriedCityResidentialMasterKey = {
   "stackSize": 1,
   "updatedAt": "11/13/2025",
   "imageFilename": "https://cdn.arctracker.io/items/buried_city_residential_master_key.png"
-} as Item;
+};
 
 export default buriedCityResidentialMasterKey;

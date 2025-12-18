@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/heavy_shield.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const heavyShield = {
+export const heavyShield: Item = {
   "id": "heavy_shield",
   "name": {
     "en": "Heavy Shield",
@@ -144,6 +144,6 @@ export const heavyShield = {
     "voltage_converter": 2
   },
   "craftBench": "equipment_bench"
-} as Item;
+};
 
 export default heavyShield;

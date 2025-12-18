@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/broken_flashlight.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const brokenFlashlight = {
+export const brokenFlashlight: Item = {
   "id": "broken_flashlight",
   "name": {
     "en": "Broken Flashlight",
@@ -58,6 +58,6 @@ export const brokenFlashlight = {
   "stackSize": 3,
   "imageFilename": "https://cdn.arctracker.io/items/broken_flashlight.png",
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default brokenFlashlight;

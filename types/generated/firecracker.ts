@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/firecracker.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const firecracker = {
+export const firecracker: Item = {
   "id": "firecracker",
   "name": {
     "en": "Firecracker",
@@ -85,6 +85,6 @@ export const firecracker = {
   },
   "craftBench": "utility_bench",
   "stationLevelRequired": 1
-} as Item;
+};
 
 export default firecracker;

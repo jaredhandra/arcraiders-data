@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/smoke_grenade_trap.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const smokeGrenadeTrap = {
+export const smokeGrenadeTrap: Item = {
   "id": "smoke_grenade_trap",
   "name": {
     "en": "Smoke Grenade Trap",
@@ -93,6 +93,6 @@ export const smokeGrenadeTrap = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/smoke_grenade_trap.png",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default smokeGrenadeTrap;

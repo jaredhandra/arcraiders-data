@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/gas_mine.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const gasMine = {
+export const gasMine: Item = {
   "name": {
     "en": "Gas Mine",
     "de": "Sprungmine: Ausdauerverlust über Zeit",
@@ -119,6 +119,6 @@ export const gasMine = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/gas_mine.png",
   "updatedAt": "11/13/2025"
-} as Item;
+};
 
 export default gasMine;

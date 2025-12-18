@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/light_shield.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lightShield = {
+export const lightShield: Item = {
   "id": "light_shield",
   "name": {
     "en": "Light Shield",
@@ -129,6 +129,6 @@ export const lightShield = {
     "workbench",
     "equipment_bench"
   ]
-} as Item;
+};
 
 export default lightShield;

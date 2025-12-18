@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/kettle_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const kettleIi = {
+export const kettleIi: Item = {
   "id": "kettle_ii",
   "name": {
     "en": "Kettle II",
@@ -53,6 +53,6 @@ export const kettleIi = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/kettle.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default kettleIi;

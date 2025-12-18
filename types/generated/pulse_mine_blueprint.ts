@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/pulse_mine_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const pulseMineBlueprint = {
+export const pulseMineBlueprint: Item = {
   "id": "pulse_mine_blueprint",
   "name": {
     "en": "Pulse Mine Blueprint",
@@ -49,6 +49,6 @@ export const pulseMineBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/pulse_mine.png",
   "rarity": "Legendary",
   "updatedAt": "12/16/2025"
-} as Item;
+};
 
 export default pulseMineBlueprint;

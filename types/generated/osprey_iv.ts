@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/osprey_iv.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ospreyIv = {
+export const ospreyIv: Item = {
   "id": "osprey_iv",
   "name": {
     "en": "Osprey IV",
@@ -239,6 +239,6 @@ export const ospreyIv = {
   "imageFilename": "https://cdn.arctracker.io/items/osprey.png",
   "updatedAt": "11/12/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default ospreyIv;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/buried_city_hospital_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const buriedCityHospitalKey = {
+export const buriedCityHospitalKey: Item = {
   "id": "buried_city_hospital_key",
   "name": {
     "en": "Buried City Hospital Key",
@@ -50,6 +50,6 @@ export const buriedCityHospitalKey = {
   "stackSize": 1,
   "updatedAt": "12/07/2025",
   "imageFilename": "https://cdn.arctracker.io/items/buried_city_hospital_key.png"
-} as Item;
+};
 
 export default buriedCityHospitalKey;

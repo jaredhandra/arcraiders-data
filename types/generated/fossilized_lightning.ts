@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/fossilized_lightning.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const fossilizedLightning = {
+export const fossilizedLightning: Item = {
   "id": "fossilized_lightning",
   "name": {
     "en": "Fossilized Lightning",
@@ -54,6 +54,6 @@ export const fossilizedLightning = {
     "explosive_compound": 3
   },
   "updatedAt": "12/16/2025"
-} as Item;
+};
 
 export default fossilizedLightning;

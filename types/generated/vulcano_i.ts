@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vulcano_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const vulcanoI = {
+export const vulcanoI: Item = {
   "id": "vulcano_i",
   "name": {
     "en": "Vulcano I",
@@ -178,6 +178,6 @@ export const vulcanoI = {
     }
   },
   "isWeapon": true
-} as Item;
+};
 
 export default vulcanoI;

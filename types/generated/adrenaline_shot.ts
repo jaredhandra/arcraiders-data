@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/adrenaline_shot.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const adrenalineShot = {
+export const adrenalineShot: Item = {
   "id": "adrenaline_shot",
   "name": {
     "en": "Adrenaline Shot",
@@ -127,6 +127,6 @@ export const adrenalineShot = {
   "salvagesInto": {
     "chemicals": 1
   }
-} as Item;
+};
 
 export default adrenalineShot;

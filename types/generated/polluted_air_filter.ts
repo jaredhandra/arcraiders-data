@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/polluted_air_filter.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const pollutedAirFilter = {
+export const pollutedAirFilter: Item = {
   "id": "polluted_air_filter",
   "name": {
     "en": "Polluted Air Filter",
@@ -58,6 +58,6 @@ export const pollutedAirFilter = {
   "foundIn": "Industrial",
   "imageFilename": "https://cdn.arctracker.io/items/polluted_air_filter.png",
   "updatedAt": "11/10/2025"
-} as Item;
+};
 
 export default pollutedAirFilter;

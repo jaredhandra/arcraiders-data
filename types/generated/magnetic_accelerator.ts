@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/magnetic_accelerator.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const magneticAccelerator = {
+export const magneticAccelerator: Item = {
   "id": "magnetic_accelerator",
   "name": {
     "en": "Magnetic Accelerator",
@@ -60,6 +60,6 @@ export const magneticAccelerator = {
     "arc_motion_core": 2
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default magneticAccelerator;

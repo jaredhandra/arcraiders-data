@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/stable_stock_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const stableStockIi = {
+export const stableStockIi: Item = {
   "id": "stable_stock_ii",
   "name": {
     "en": "Stable Stock II",
@@ -132,6 +132,6 @@ export const stableStockIi = {
   "craftBench": "weapon_bench",
   "stationLevelRequired": 2,
   "blueprintLocked": true
-} as Item;
+};
 
 export default stableStockIi;

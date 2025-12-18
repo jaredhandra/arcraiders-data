@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/snitch_scanner.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const snitchScanner = {
+export const snitchScanner: Item = {
   "id": "snitch_scanner",
   "name": {
     "en": "Snitch Scanner",
@@ -58,6 +58,6 @@ export const snitchScanner = {
   "weightKg": 0.75,
   "stackSize": 3,
   "foundIn": "ARC"
-} as Item;
+};
 
 export default snitchScanner;

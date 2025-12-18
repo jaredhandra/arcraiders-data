@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/shrapnel_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const shrapnelGrenade = {
+export const shrapnelGrenade: Item = {
   "id": "shrapnel_grenade",
   "name": {
     "en": "Shrapnel Grenade",
@@ -103,6 +103,6 @@ export const shrapnelGrenade = {
   },
   "craftBench": "explosives_bench",
   "imageFilename": "https://cdn.arctracker.io/items/shrapnel_grenade.png"
-} as Item;
+};
 
 export default shrapnelGrenade;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/ice_cream_scooper.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const iceCreamScooper = {
+export const iceCreamScooper: Item = {
   "id": "ice_cream_scooper",
   "name": {
     "en": "Ice Cream Scooper",
@@ -57,6 +57,6 @@ export const iceCreamScooper = {
   "foundIn": "Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/ice_cream_scooper.png",
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default iceCreamScooper;

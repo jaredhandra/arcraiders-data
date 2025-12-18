@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/lightweight_stock.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lightweightStock = {
+export const lightweightStock: Item = {
   "id": "lightweight_stock",
   "name": {
     "en": "Lightweight Stock",
@@ -161,6 +161,6 @@ export const lightweightStock = {
     "duct_tape": 5
   },
   "craftBench": "weapon_bench"
-} as Item;
+};
 
 export default lightweightStock;

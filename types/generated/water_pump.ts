@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/water_pump.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const waterPump = {
+export const waterPump: Item = {
   "id": "water_pump",
   "name": {
     "en": "Water Pump",
@@ -58,6 +58,6 @@ export const waterPump = {
   "foundIn": "Mechanical, Industrial",
   "imageFilename": "https://cdn.arctracker.io/items/water_pump.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default waterPump;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/water_filter.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const waterFilter = {
+export const waterFilter: Item = {
   "id": "water_filter",
   "name": {
     "en": "Water Filter",
@@ -58,6 +58,6 @@ export const waterFilter = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/water_filter.png",
   "updatedAt": "11/1/2025"
-} as Item;
+};
 
 export default waterFilter;

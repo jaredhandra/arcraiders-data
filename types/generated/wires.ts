@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/wires.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const wires = {
+export const wires: Item = {
   "id": "wires",
   "name": {
     "en": "Wires",
@@ -58,6 +58,6 @@ export const wires = {
   "stackSize": 15,
   "foundIn": "Electrical, Technological",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default wires;

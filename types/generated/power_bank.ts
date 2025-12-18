@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/power_bank.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const powerBank = {
+export const powerBank: Item = {
   "id": "power_bank",
   "name": {
     "en": "Power Bank",
@@ -58,6 +58,6 @@ export const powerBank = {
   "foundIn": "Electrical, Residential, Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/power_bank.png",
   "updatedAt": "11/02/2025"
-} as Item;
+};
 
 export default powerBank;

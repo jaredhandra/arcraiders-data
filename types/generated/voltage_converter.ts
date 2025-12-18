@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/voltage_converter.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const voltageConverter = {
+export const voltageConverter: Item = {
   "id": "voltage_converter",
   "name": {
     "en": "Voltage Converter",
@@ -55,6 +55,6 @@ export const voltageConverter = {
     "wires": 1,
     "rubber_parts": 1
   }
-} as Item;
+};
 
 export default voltageConverter;

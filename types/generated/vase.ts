@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vase.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const vase = {
+export const vase: Item = {
   "id": "vase",
   "name": {
     "en": "Vase",
@@ -52,6 +52,6 @@ export const vase = {
   "stackSize": 3,
   "foundIn": "Old World, Residential, Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/vase.png"
-} as Item;
+};
 
 export default vase;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/bandage.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const bandage = {
+export const bandage: Item = {
   "id": "bandage",
   "name": {
     "en": "Bandage",
@@ -125,6 +125,6 @@ export const bandage = {
     "workbench",
     "med_station"
   ]
-} as Item;
+};
 
 export default bandage;

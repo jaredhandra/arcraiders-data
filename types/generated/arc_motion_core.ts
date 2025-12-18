@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/arc_motion_core.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const arcMotionCore = {
+export const arcMotionCore: Item = {
   "id": "arc_motion_core",
   "name": {
     "en": "ARC Motion Core",
@@ -58,6 +58,6 @@ export const arcMotionCore = {
     "arc_alloy": 8
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default arcMotionCore;

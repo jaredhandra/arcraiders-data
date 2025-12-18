@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rotary_encoder.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rotaryEncoder = {
+export const rotaryEncoder: Item = {
   "name": {
     "en": "Rotary Encoder",
     "de": "Drehgeber",
@@ -55,6 +55,6 @@ export const rotaryEncoder = {
     "electrical_components": 2,
     "processor": 2
   }
-} as Item;
+};
 
 export default rotaryEncoder;

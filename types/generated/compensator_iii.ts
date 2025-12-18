@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/compensator_iii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const compensatorIii = {
+export const compensatorIii: Item = {
   "id": "compensator_iii",
   "name": {
     "en": "Compensator III",
@@ -141,6 +141,6 @@ export const compensatorIii = {
   "craftBench": "weapon_bench",
   "stationLevelRequired": 3,
   "blueprintLocked": true
-} as Item;
+};
 
 export default compensatorIii;

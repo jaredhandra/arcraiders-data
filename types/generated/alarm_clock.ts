@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/alarm_clock.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const alarmClock = {
+export const alarmClock: Item = {
   "id": "alarm_clock",
   "name": {
     "en": "Alarm Clock",
@@ -58,6 +58,6 @@ export const alarmClock = {
   "weightKg": 2,
   "imageFilename": "https://cdn.arctracker.io/items/alarm_clock.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default alarmClock;

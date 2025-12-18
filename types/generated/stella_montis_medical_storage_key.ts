@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/stella_montis_medical_storage_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const stellaMontisMedicalStorageKey = {
+export const stellaMontisMedicalStorageKey: Item = {
   "id": "stella_montis_medical_storage_key",
   "name": {
     "en": "Stella Montis Medical Storage Key",
@@ -73,6 +73,6 @@ export const stellaMontisMedicalStorageKey = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/stella_montis_medical_storage_key.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default stellaMontisMedicalStorageKey;

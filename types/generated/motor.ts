@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/motor.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const motor = {
+export const motor: Item = {
   "id": "motor",
   "name": {
     "en": "Motor",
@@ -57,6 +57,6 @@ export const motor = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/motor.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default motor;

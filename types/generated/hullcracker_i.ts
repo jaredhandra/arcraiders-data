@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/hullcracker_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const hullcrackerI = {
+export const hullcrackerI: Item = {
   "id": "hullcracker_i",
   "name": {
     "en": "Hullcracker I",
@@ -169,6 +169,6 @@ export const hullcrackerI = {
   "craftBench": "weapon_bench",
   "stationLevelRequired": 3,
   "isWeapon": true
-} as Item;
+};
 
 export default hullcrackerI;

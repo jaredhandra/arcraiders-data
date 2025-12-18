@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/blue_gate_village_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const blueGateVillageKey = {
+export const blueGateVillageKey: Item = {
   "id": "blue_gate_village_key",
   "name": {
     "en": "Blue Gate Village Key",
@@ -50,6 +50,6 @@ export const blueGateVillageKey = {
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/blue_gate_village_key.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default blueGateVillageKey;

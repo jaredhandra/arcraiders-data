@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/trailblazer.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const trailblazer = {
+export const trailblazer: Item = {
   "name": {
     "en": "Trailblazer",
     "de": "Trailblazer",
@@ -97,6 +97,6 @@ export const trailblazer = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/trailblazer.png",
   "updatedAt": "11/14/2025"
-} as Item;
+};
 
 export default trailblazer;

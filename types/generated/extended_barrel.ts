@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/extended_barrel.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const extendedBarrel = {
+export const extendedBarrel: Item = {
   "name": {
     "en": "Extended Barrel",
     "de": "Verlängerter Lauf",
@@ -104,6 +104,6 @@ export const extendedBarrel = {
     "mod_components": 1,
     "wires": 1
   }
-} as Item;
+};
 
 export default extendedBarrel;

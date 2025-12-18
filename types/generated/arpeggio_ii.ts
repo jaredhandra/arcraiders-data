@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/arpeggio_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const arpeggioIi = {
+export const arpeggioIi: Item = {
   "id": "arpeggio_ii",
   "name": {
     "en": "Arpeggio II",
@@ -204,6 +204,6 @@ export const arpeggioIi = {
     "simple_gun_parts": 1
   },
   "isWeapon": true
-} as Item;
+};
 
 export default arpeggioIi;

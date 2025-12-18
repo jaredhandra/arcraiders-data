@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/combat_mk3_aggressive_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const combatMk3AggressiveBlueprint = {
+export const combatMk3AggressiveBlueprint: Item = {
   "id": "combat_mk3_aggressive_blueprint",
   "name": {
     "en": "Combat Mk. 3 (Aggressive) Blueprint",
@@ -49,6 +49,6 @@ export const combatMk3AggressiveBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
   "updatedAt": "11/13/2025"
-} as Item;
+};
 
 export default combatMk3AggressiveBlueprint;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/bloated_tuna_can.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const bloatedTunaCan = {
+export const bloatedTunaCan: Item = {
   "id": "bloated_tuna_can",
   "name": {
     "en": "Bloated Tuna Can",
@@ -95,6 +95,6 @@ export const bloatedTunaCan = {
   "imageFilename": "https://cdn.arctracker.io/items/bloated_tuna_can.png",
   "rarity": "Common",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default bloatedTunaCan;

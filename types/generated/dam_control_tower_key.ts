@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/dam_control_tower_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damControlTowerKey = {
+export const damControlTowerKey: Item = {
   "id": "dam_control_tower_key",
   "name": {
     "en": "Dam Control Tower Key",
@@ -49,6 +49,6 @@ export const damControlTowerKey = {
   "value": 100,
   "imageFilename": "https://cdn.arctracker.io/items/dam_control_tower_key.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default damControlTowerKey;

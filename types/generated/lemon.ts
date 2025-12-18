@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/lemon.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lemon = {
+export const lemon: Item = {
   "id": "lemon",
   "name": {
     "en": "Lemon",
@@ -98,6 +98,6 @@ export const lemon = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/lemon.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default lemon;

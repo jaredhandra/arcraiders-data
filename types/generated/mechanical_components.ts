@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/mechanical_components.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const mechanicalComponents = {
+export const mechanicalComponents: Item = {
   "id": "mechanical_components",
   "name": {
     "en": "Mechanical Components",
@@ -60,6 +60,6 @@ export const mechanicalComponents = {
     "rubber_parts": 3
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default mechanicalComponents;

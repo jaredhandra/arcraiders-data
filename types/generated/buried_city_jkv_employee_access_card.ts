@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/buried_city_jkv_employee_access_card.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const buriedCityJkvEmployeeAccessCard = {
+export const buriedCityJkvEmployeeAccessCard: Item = {
   "id": "buried_city_jkv_employee_access_card",
   "name": {
     "en": "Buried City JKV Employee Access Card",
@@ -50,6 +50,6 @@ export const buriedCityJkvEmployeeAccessCard = {
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/buried_city_jkv_employee_access_card.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default buriedCityJkvEmployeeAccessCard;

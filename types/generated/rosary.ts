@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rosary.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rosary = {
+export const rosary: Item = {
   "id": "rosary",
   "name": {
     "en": "Rosary",
@@ -51,6 +51,6 @@ export const rosary = {
   "foundIn": "Old World, Residential",
   "imageFilename": "https://cdn.arctracker.io/items/rosary.png",
   "updatedAt": "11/11/2025"
-} as Item;
+};
 
 export default rosary;

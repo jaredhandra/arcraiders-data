@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/shotgun_choke_iii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const shotgunChokeIii = {
+export const shotgunChokeIii: Item = {
   "id": "shotgun_choke_iii",
   "name": {
     "en": "Shotgun Choke III",
@@ -121,6 +121,6 @@ export const shotgunChokeIii = {
   "craftBench": "weapon_bench",
   "stationLevelRequired": 3,
   "blueprintLocked": true
-} as Item;
+};
 
 export default shotgunChokeIii;

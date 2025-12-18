@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/barricade_kit.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const barricadeKit = {
+export const barricadeKit: Item = {
   "id": "barricade_kit",
   "name": {
     "en": "Barricade Kit",
@@ -102,6 +102,6 @@ export const barricadeKit = {
   },
   "craftBench": "utility_bench",
   "stationLevelRequired": 1
-} as Item;
+};
 
 export default barricadeKit;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/spaceport_warehouse_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const spaceportWarehouseKey = {
+export const spaceportWarehouseKey: Item = {
   "id": "spaceport_warehouse_key",
   "name": {
     "en": "Spaceport Warehouse Key",
@@ -49,6 +49,6 @@ export const spaceportWarehouseKey = {
   "weightKg": 0.25,
   "updatedAt": "11/16/2025",
   "imageFilename": "https://cdn.arctracker.io/items/spaceport_trench_tower_key.png"
-} as Item;
+};
 
 export default spaceportWarehouseKey;

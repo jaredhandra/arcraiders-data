@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/power_rod.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const powerRod = {
+export const powerRod: Item = {
   "id": "power_rod",
   "name": {
     "en": "Power Rod",
@@ -59,6 +59,6 @@ export const powerRod = {
     "arc_circuitry": 2
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default powerRod;

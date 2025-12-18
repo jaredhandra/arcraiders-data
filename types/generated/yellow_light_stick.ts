@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/yellow_light_stick.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const yellowLightStick = {
+export const yellowLightStick: Item = {
   "id": "yellow_light_stick",
   "name": {
     "en": "Yellow Light Stick",
@@ -97,6 +97,6 @@ export const yellowLightStick = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/yellow_light_stick.png",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default yellowLightStick;

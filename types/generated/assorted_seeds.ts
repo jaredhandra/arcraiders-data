@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/assorted_seeds.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const assortedSeeds = {
+export const assortedSeeds: Item = {
   "id": "assorted_seeds",
   "name": {
     "en": "Assorted Seeds",
@@ -52,6 +52,6 @@ export const assortedSeeds = {
   "stackSize": 100,
   "foundIn": "Nature",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default assortedSeeds;

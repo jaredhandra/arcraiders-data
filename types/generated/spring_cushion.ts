@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/spring_cushion.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const springCushion = {
+export const springCushion: Item = {
   "id": "spring_cushion",
   "name": {
     "en": "Spring Cushion",
@@ -58,6 +58,6 @@ export const springCushion = {
   "foundIn": "Residential, Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/spring_cushion.png",
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default springCushion;

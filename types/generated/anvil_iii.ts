@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/anvil_iii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const anvilIii = {
+export const anvilIii: Item = {
   "id": "anvil_iii",
   "name": {
     "en": "Anvil III",
@@ -210,6 +210,6 @@ export const anvilIii = {
   "imageFilename": "https://cdn.arctracker.io/items/anvil.png",
   "updatedAt": "11/06/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default anvilIii;

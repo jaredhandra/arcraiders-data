@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/bettina_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const bettinaBlueprint = {
+export const bettinaBlueprint: Item = {
   "id": "bettina_blueprint",
   "name": {
     "en": "Bettina Blueprint",
@@ -49,6 +49,6 @@ export const bettinaBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/bettina_blueprint.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default bettinaBlueprint;

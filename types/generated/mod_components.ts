@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/mod_components.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const modComponents = {
+export const modComponents: Item = {
   "id": "mod_components",
   "name": {
     "en": "Mod Components",
@@ -60,6 +60,6 @@ export const modComponents = {
     "mechanical_components": 2
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default modComponents;

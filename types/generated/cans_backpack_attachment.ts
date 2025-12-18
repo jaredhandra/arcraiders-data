@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/cans_backpack_attachment.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const cansBackpackAttachment = {
+export const cansBackpackAttachment: Item = {
   "id": "cans_backpack_attachment",
   "name": {
     "en": "Cans Backpack Attachment",
@@ -47,6 +47,6 @@ export const cansBackpackAttachment = {
   "rarity": "Common",
   "updatedAt": "11/10/2025",
   "imageFilename": "https://cdn.arctracker.io/items/cans.png"
-} as Item;
+};
 
 export default cansBackpackAttachment;

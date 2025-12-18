@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/il_toro_iv.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ilToroIv = {
+export const ilToroIv: Item = {
   "id": "il_toro_iv",
   "name": {
     "en": "Il Toro IV",
@@ -194,6 +194,6 @@ export const ilToroIv = {
   "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
   "updatedAt": "11/12/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default ilToroIv;

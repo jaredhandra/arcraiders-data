@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/recorder.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const recorder = {
+export const recorder: Item = {
   "id": "recorder",
   "name": {
     "en": "Recorder",
@@ -76,6 +76,6 @@ export const recorder = {
     }
   },
   "imageFilename": "https://cdn.arctracker.io/items/recorder.png"
-} as Item;
+};
 
 export default recorder;

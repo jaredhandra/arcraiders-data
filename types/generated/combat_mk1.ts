@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/combat_mk1.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const combatMk1 = {
+export const combatMk1: Item = {
   "id": "combat_mk1",
   "name": {
     "en": "Combat Mk. 1",
@@ -123,6 +123,6 @@ export const combatMk1 = {
     "rubber_parts": 6
   },
   "craftBench": "equipment_bench"
-} as Item;
+};
 
 export default combatMk1;

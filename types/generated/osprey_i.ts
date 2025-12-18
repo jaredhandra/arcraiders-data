@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/osprey_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ospreyI = {
+export const ospreyI: Item = {
   "id": "osprey_i",
   "name": {
     "en": "Osprey I",
@@ -185,6 +185,6 @@ export const ospreyI = {
   "craftBench": "weapon_bench",
   "stationLevelRequired": 2,
   "isWeapon": true
-} as Item;
+};
 
 export default ospreyI;

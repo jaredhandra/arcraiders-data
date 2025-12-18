@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/bobcat_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const bobcatI = {
+export const bobcatI: Item = {
   "id": "bobcat_i",
   "name": {
     "en": "Bobcat I",
@@ -299,6 +299,6 @@ export const bobcatI = {
     }
   },
   "isWeapon": true
-} as Item;
+};
 
 export default bobcatI;

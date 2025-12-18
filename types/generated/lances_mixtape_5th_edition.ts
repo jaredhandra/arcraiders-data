@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/lances_mixtape_5th_edition.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lancesMixtape5thEdition = {
+export const lancesMixtape5thEdition: Item = {
   "id": "lances_mixtape_5th_edition",
   "name": {
     "en": "Lance's Mixtape (5th Edition)",
@@ -51,6 +51,6 @@ export const lancesMixtape5thEdition = {
   "stackSize": 3,
   "foundIn": "Residential, Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/lances_mixtape_5th_edition.png"
-} as Item;
+};
 
 export default lancesMixtape5thEdition;

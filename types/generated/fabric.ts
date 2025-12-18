@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/fabric.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const fabric = {
+export const fabric: Item = {
   "id": "fabric",
   "name": {
     "en": "Fabric",
@@ -117,6 +117,6 @@ export const fabric = {
     }
   },
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default fabric;

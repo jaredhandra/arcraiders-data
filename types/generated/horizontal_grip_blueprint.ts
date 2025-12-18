@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/horizontal_grip_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const horizontalGripBlueprint = {
+export const horizontalGripBlueprint: Item = {
   "id": "horizontal_grip_blueprint",
   "name": {
     "en": "Horizontal Grip Blueprint",
@@ -49,6 +49,6 @@ export const horizontalGripBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/horizontal_grip.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default horizontalGripBlueprint;

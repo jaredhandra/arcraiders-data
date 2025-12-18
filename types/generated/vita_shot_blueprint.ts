@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vita_shot_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const vitaShotBlueprint = {
+export const vitaShotBlueprint: Item = {
   "id": "vita_shot_blueprint",
   "name": {
     "en": "Vita Shot Blueprint",
@@ -49,6 +49,6 @@ export const vitaShotBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/vita_shot.png",
   "updatedAt": "11/17/2025"
-} as Item;
+};
 
 export default vitaShotBlueprint;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/fertilizer.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const fertilizer = {
+export const fertilizer: Item = {
   "id": "fertilizer",
   "name": {
     "en": "Fertilizer",
@@ -54,6 +54,6 @@ export const fertilizer = {
   "foundIn": "Nature",
   "updatedAt": "11/04/2025",
   "imageFilename": "https://cdn.arctracker.io/items/fertilizer.png"
-} as Item;
+};
 
 export default fertilizer;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/bombardier_cell.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const bombardierCell = {
+export const bombardierCell: Item = {
   "id": "bombardier_cell",
   "name": {
     "en": "Bombardier Cell",
@@ -55,6 +55,6 @@ export const bombardierCell = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/bombardier_cell.png",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default bombardierCell;

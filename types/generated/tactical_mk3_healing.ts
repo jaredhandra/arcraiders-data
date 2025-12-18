@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tactical_mk3_healing.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tacticalMk3Healing = {
+export const tacticalMk3Healing: Item = {
   "id": "tactical_mk3_healing",
   "name": {
     "en": "Tactical Mk. 3 (Healing)",
@@ -118,6 +118,6 @@ export const tacticalMk3Healing = {
   "value": 5000,
   "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing.png",
   "updatedAt": "11/05/2025"
-} as Item;
+};
 
 export default tacticalMk3Healing;

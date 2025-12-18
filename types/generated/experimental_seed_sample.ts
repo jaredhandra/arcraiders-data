@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/experimental_seed_sample.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const experimentalSeedSample = {
+export const experimentalSeedSample: Item = {
   "name": {
     "en": "Experimental Seed Sample",
     "de": "Experimentelle Samenprobe",
@@ -48,6 +48,6 @@ export const experimentalSeedSample = {
   "imageFilename": "https://cdn.arctracker.io/items/experimental_seed_sample.png",
   "rarity": "Common",
   "updatedAt": "11/17/2025"
-} as Item;
+};
 
 export default experimentalSeedSample;

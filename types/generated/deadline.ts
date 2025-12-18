@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/deadline.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const deadline = {
+export const deadline: Item = {
   "name": {
     "en": "Deadline",
     "de": "Deadline",
@@ -123,6 +123,6 @@ export const deadline = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/deadline.png",
   "updatedAt": "11/21/2025"
-} as Item;
+};
 
 export default deadline;

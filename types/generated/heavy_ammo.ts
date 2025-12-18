@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/heavy_ammo.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const heavyAmmo = {
+export const heavyAmmo: Item = {
   "id": "heavy_ammo",
   "name": {
     "en": "Heavy Ammo",
@@ -61,6 +61,6 @@ export const heavyAmmo = {
   },
   "craftBench": "workbench",
   "craftQuantity": 10
-} as Item;
+};
 
 export default heavyAmmo;

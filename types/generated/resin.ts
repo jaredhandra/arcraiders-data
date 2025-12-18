@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/resin.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const resin = {
+export const resin: Item = {
   "id": "resin",
   "name": {
     "en": "Resin",
@@ -117,6 +117,6 @@ export const resin = {
   "foundIn": "Nature",
   "updatedAt": "11/04/2025",
   "imageFilename": "https://cdn.arctracker.io/items/resin.png"
-} as Item;
+};
 
 export default resin;

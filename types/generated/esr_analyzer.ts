@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/esr_analyzer.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const esrAnalyzer = {
+export const esrAnalyzer: Item = {
   "id": "esr_analyzer",
   "name": {
     "en": "ESR Analyzer",
@@ -48,6 +48,6 @@ export const esrAnalyzer = {
   "rarity": "Common",
   "weightKg": 0.25,
   "imageFilename": "https://cdn.arctracker.io/items/esr_analyzer.png"
-} as Item;
+};
 
 export default esrAnalyzer;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/metal_brackets.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const metalBrackets = {
+export const metalBrackets: Item = {
   "id": "metal_brackets",
   "name": {
     "en": "Metal Brackets",
@@ -57,6 +57,6 @@ export const metalBrackets = {
   "foundIn": "Mechanical, Electrical",
   "updatedAt": "11/10/2025",
   "imageFilename": "https://cdn.arctracker.io/items/metal_brackets.png"
-} as Item;
+};
 
 export default metalBrackets;

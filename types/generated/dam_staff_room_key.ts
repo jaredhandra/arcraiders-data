@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/dam_staff_room_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damStaffRoomKey = {
+export const damStaffRoomKey: Item = {
   "id": "dam_staff_room_key",
   "name": {
     "en": "Dam Staff Room Key",
@@ -50,6 +50,6 @@ export const damStaffRoomKey = {
   "weightKg": 0.25,
   "stackSize": 1,
   "rarity": "Uncommon"
-} as Item;
+};
 
 export default damStaffRoomKey;

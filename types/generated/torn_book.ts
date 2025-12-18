@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/torn_book.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tornBook = {
+export const tornBook: Item = {
   "id": "torn_book",
   "name": {
     "en": "Torn Book",
@@ -52,6 +52,6 @@ export const tornBook = {
   "foundIn": "Residential, Old World",
   "updatedAt": "11/04/2025",
   "imageFilename": "https://cdn.arctracker.io/items/torn_book.png"
-} as Item;
+};
 
 export default tornBook;

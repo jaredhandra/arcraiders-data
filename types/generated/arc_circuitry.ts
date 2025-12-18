@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/arc_circuitry.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const arcCircuitry = {
+export const arcCircuitry: Item = {
   "id": "arc_circuitry",
   "name": {
     "en": "ARC Circuitry",
@@ -58,6 +58,6 @@ export const arcCircuitry = {
     "arc_alloy": 8
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default arcCircuitry;

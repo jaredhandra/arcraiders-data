@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/light_impact_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lightImpactGrenade = {
+export const lightImpactGrenade: Item = {
   "id": "light_impact_grenade",
   "name": {
     "en": "Light Impact Grenade",
@@ -109,6 +109,6 @@ export const lightImpactGrenade = {
     "workbench",
     "explosives_bench"
   ]
-} as Item;
+};
 
 export default lightImpactGrenade;

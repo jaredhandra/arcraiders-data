@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/fine_wristwatch.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const fineWristwatch = {
+export const fineWristwatch: Item = {
   "id": "fine_wristwatch",
   "name": {
     "en": "Fine Wristwatch",
@@ -51,6 +51,6 @@ export const fineWristwatch = {
   "rarity": "Rare",
   "updatedAt": "11/01/2025",
   "value": 3000
-} as Item;
+};
 
 export default fineWristwatch;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/cheer.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const cheer = {
+export const cheer: Item = {
   "id": "cheer",
   "name": {
     "en": "Cheer",
@@ -47,6 +47,6 @@ export const cheer = {
   "imageFilename": "https://cdn.arctracker.io/items/cheer.png",
   "rarity": "Common",
   "updatedAt": "11/16/2025"
-} as Item;
+};
 
 export default cheer;

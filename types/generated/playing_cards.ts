@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/playing_cards.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const playingCards = {
+export const playingCards: Item = {
   "id": "playing_cards",
   "name": {
     "en": "Playing Cards",
@@ -52,6 +52,6 @@ export const playingCards = {
   "stackSize": 3,
   "foundIn": "Residential, Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/playing_cards.png"
-} as Item;
+};
 
 export default playingCards;

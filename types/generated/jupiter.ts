@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/jupiter.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const jupiter = {
+export const jupiter: Item = {
   "id": "jupiter",
   "name": {
     "en": "Jupiter",
@@ -182,6 +182,6 @@ export const jupiter = {
   "imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
   "updatedAt": "11/12/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default jupiter;

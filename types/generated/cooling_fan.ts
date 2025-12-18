@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/cooling_fan.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const coolingFan = {
+export const coolingFan: Item = {
   "id": "cooling_fan",
   "name": {
     "en": "Cooling Fan",
@@ -55,6 +55,6 @@ export const coolingFan = {
   "foundIn": "Technological",
   "imageFilename": "https://cdn.arctracker.io/items/cooling_fan.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default coolingFan;

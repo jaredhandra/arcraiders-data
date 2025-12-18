@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/burletta_iii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const burlettaIii = {
+export const burlettaIii: Item = {
   "id": "burletta_iii",
   "name": {
     "en": "Burletta III",
@@ -57,6 +57,6 @@ export const burlettaIii = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/burletta.png",
   "updatedAt": "11/24/2025"
-} as Item;
+};
 
 export default burlettaIii;

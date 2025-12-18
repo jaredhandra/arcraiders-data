@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/great_mullein.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const greatMullein = {
+export const greatMullein: Item = {
   "id": "great_mullein",
   "name": {
     "en": "Great Mullein",
@@ -54,6 +54,6 @@ export const greatMullein = {
   "foundIn": "Nature",
   "stackSize": 15,
   "imageFilename": "https://cdn.arctracker.io/items/great_mullein.png"
-} as Item;
+};
 
 export default greatMullein;

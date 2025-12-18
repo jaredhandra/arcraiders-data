@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/fireball_burner.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const fireballBurner = {
+export const fireballBurner: Item = {
   "id": "fireball_burner",
   "name": {
     "en": "Fireball Burner",
@@ -120,6 +120,6 @@ export const fireballBurner = {
     }
   },
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default fireballBurner;

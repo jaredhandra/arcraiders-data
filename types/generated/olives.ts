@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/olives.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const olives = {
+export const olives: Item = {
   "id": "olives",
   "name": {
     "en": "Olives",
@@ -98,6 +98,6 @@ export const olives = {
     }
   },
   "imageFilename": "https://cdn.arctracker.io/items/olives.png"
-} as Item;
+};
 
 export default olives;

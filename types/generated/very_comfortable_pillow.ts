@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/very_comfortable_pillow.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const veryComfortablePillow = {
+export const veryComfortablePillow: Item = {
   "id": "very_comfortable_pillow",
   "name": {
     "en": "Very Comfortable Pillow",
@@ -51,6 +51,6 @@ export const veryComfortablePillow = {
   "imageFilename": "https://cdn.arctracker.io/items/very_comfortable_pillow.png",
   "rarity": "Uncommon",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default veryComfortablePillow;

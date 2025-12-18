@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/anvil_splitter.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const anvilSplitter = {
+export const anvilSplitter: Item = {
   "id": "anvil_splitter",
   "name": {
     "en": "Anvil Splitter",
@@ -97,6 +97,6 @@ export const anvilSplitter = {
   },
   "updatedAt": "11/01/2025",
   "imageFilename": "https://cdn.arctracker.io/items/anvil_splitter.png"
-} as Item;
+};
 
 export default anvilSplitter;

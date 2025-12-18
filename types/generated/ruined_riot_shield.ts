@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/ruined_riot_shield.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ruinedRiotShield = {
+export const ruinedRiotShield: Item = {
   "id": "ruined_riot_shield",
   "name": {
     "en": "Ruined Riot Shield",
@@ -58,6 +58,6 @@ export const ruinedRiotShield = {
   "salvagesInto": {
     "plastic_parts": 10
   }
-} as Item;
+};
 
 export default ruinedRiotShield;

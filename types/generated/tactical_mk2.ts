@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tactical_mk2.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tacticalMk2 = {
+export const tacticalMk2: Item = {
   "id": "tactical_mk2",
   "name": {
     "en": "Tactical Mk. 2",
@@ -123,6 +123,6 @@ export const tacticalMk2 = {
     "magnet": 3
   },
   "craftBench": "equipment_bench"
-} as Item;
+};
 
 export default tacticalMk2;

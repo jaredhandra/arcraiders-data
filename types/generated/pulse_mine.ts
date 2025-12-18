@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/pulse_mine.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const pulseMine = {
+export const pulseMine: Item = {
   "name": {
     "en": "Pulse Mine",
     "de": "Sprungmine: Impuls",
@@ -81,6 +81,6 @@ export const pulseMine = {
   "updatedAt": "12/16/2025",
   "craftBench": "explosives_bench",
   "blueprintLocked": true
-} as Item;
+};
 
 export default pulseMine;

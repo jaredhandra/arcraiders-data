@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/breathtaking_snow_globe.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const breathtakingSnowGlobe = {
+export const breathtakingSnowGlobe: Item = {
   "id": "breathtaking_snow_globe",
   "name": {
     "en": "Breathtaking Snow Globe",
@@ -51,6 +51,6 @@ export const breathtakingSnowGlobe = {
   "weightKg": 0.2,
   "stackSize": 1,
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default breathtakingSnowGlobe;

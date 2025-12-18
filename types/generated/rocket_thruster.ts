@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rocket_thruster.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rocketThruster = {
+export const rocketThruster: Item = {
   "id": "rocket_thruster",
   "name": {
     "en": "Rocket Thruster",
@@ -55,6 +55,6 @@ export const rocketThruster = {
     "synthesized_fuel": 2,
     "metal_parts": 6
   }
-} as Item;
+};
 
 export default rocketThruster;

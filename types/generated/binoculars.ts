@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/binoculars.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const binoculars = {
+export const binoculars: Item = {
   "id": "binoculars",
   "name": {
     "en": "Binoculars",
@@ -81,6 +81,6 @@ export const binoculars = {
     "rubber_parts": 4
   },
   "craftBench": "utility_bench"
-} as Item;
+};
 
 export default binoculars;

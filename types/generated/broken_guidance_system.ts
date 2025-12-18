@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/broken_guidance_system.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const brokenGuidanceSystem = {
+export const brokenGuidanceSystem: Item = {
   "id": "broken_guidance_system",
   "name": {
     "en": "Broken Guidance System",
@@ -57,6 +57,6 @@ export const brokenGuidanceSystem = {
   "stackSize": 3,
   "imageFilename": "https://cdn.arctracker.io/items/broken_guidance_system.png",
   "updatedAt": "11/14/2025"
-} as Item;
+};
 
 export default brokenGuidanceSystem;

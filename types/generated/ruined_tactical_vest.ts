@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/ruined_tactical_vest.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ruinedTacticalVest = {
+export const ruinedTacticalVest: Item = {
   "name": {
     "en": "Ruined Tactical Vest",
     "de": "Zerfetzte taktische Weste",
@@ -58,6 +58,6 @@ export const ruinedTacticalVest = {
   "foundIn": "Security",
   "imageFilename": "https://cdn.arctracker.io/items/ruined_tactical_vest.png",
   "updatedAt": "11/19/2025"
-} as Item;
+};
 
 export default ruinedTacticalVest;

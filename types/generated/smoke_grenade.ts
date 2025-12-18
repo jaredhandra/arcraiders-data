@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/smoke_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const smokeGrenade = {
+export const smokeGrenade: Item = {
   "id": "smoke_grenade",
   "name": {
     "en": "Smoke Grenade",
@@ -105,6 +105,6 @@ export const smokeGrenade = {
   "craftBench": "utility_bench",
   "stationLevelRequired": 2,
   "blueprintLocked": true
-} as Item;
+};
 
 export default smokeGrenade;

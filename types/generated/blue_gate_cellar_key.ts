@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/blue_gate_cellar_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const blueGateCellarKey = {
+export const blueGateCellarKey: Item = {
   "id": "blue_gate_cellar_key",
   "name": {
     "en": "Blue Gate Cellar Key",
@@ -50,6 +50,6 @@ export const blueGateCellarKey = {
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/blue_gate_cellar_key.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default blueGateCellarKey;

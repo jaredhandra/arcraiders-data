@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/fried_motherboard.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const friedMotherboard = {
+export const friedMotherboard: Item = {
   "id": "fried_motherboard",
   "name": {
     "en": "Fried Motherboard",
@@ -58,6 +58,6 @@ export const friedMotherboard = {
   "imageFilename": "https://cdn.arctracker.io/items/fried_motherboard.png",
   "stackSize": 3,
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default friedMotherboard;

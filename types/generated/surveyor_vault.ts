@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/surveyor_vault.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const surveyorVault = {
+export const surveyorVault: Item = {
   "id": "surveyor_vault",
   "name": {
     "en": "Surveyor Vault",
@@ -58,6 +58,6 @@ export const surveyorVault = {
   "stackSize": 3,
   "imageFilename": "https://cdn.arctracker.io/items/surveyor_vault.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default surveyorVault;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/compensator_ii_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const compensatorIiBlueprint = {
+export const compensatorIiBlueprint: Item = {
   "id": "compensator_ii_blueprint",
   "name": {
     "en": "Compensator II Blueprint",
@@ -49,6 +49,6 @@ export const compensatorIiBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/compensator_ii_blueprint.png",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default compensatorIiBlueprint;

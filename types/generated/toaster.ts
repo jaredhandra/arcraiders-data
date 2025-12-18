@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/toaster.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const toaster = {
+export const toaster: Item = {
   "id": "toaster",
   "name": {
     "en": "Toaster",
@@ -58,6 +58,6 @@ export const toaster = {
   "foundIn": "Residential",
   "imageFilename": "https://cdn.arctracker.io/items/toaster.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default toaster;

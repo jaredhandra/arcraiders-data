@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vita_shot.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const vitaShot = {
+export const vitaShot: Item = {
   "id": "vita_shot",
   "name": {
     "en": "Vita Shot",
@@ -103,6 +103,6 @@ export const vitaShot = {
     "syringe": 1
   },
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default vitaShot;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/damaged_tick_pod.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damagedTickPod = {
+export const damagedTickPod: Item = {
   "id": "damaged_tick_pod",
   "name": {
     "en": "Damaged Tick Pod",
@@ -57,6 +57,6 @@ export const damagedTickPod = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/damaged_tick_pod.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default damagedTickPod;

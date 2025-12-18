@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/blaze_grenade_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const blazeGrenadeBlueprint = {
+export const blazeGrenadeBlueprint: Item = {
   "id": "blaze_grenade_blueprint",
   "name": {
     "en": "Blaze Grenade Blueprint",
@@ -49,6 +49,6 @@ export const blazeGrenadeBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/blaze_grenade.png",
   "rarity": "Legendary",
   "updatedAt": "11/13/2025"
-} as Item;
+};
 
 export default blazeGrenadeBlueprint;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/seeker_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const seekerGrenade = {
+export const seekerGrenade: Item = {
   "name": {
     "en": "Seeker Grenade",
     "de": "Suchgranate",
@@ -97,6 +97,6 @@ export const seekerGrenade = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/seeker_grenade.png",
   "updatedAt": "11/13/2025"
-} as Item;
+};
 
 export default seekerGrenade;

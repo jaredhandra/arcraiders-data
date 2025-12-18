@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/barricade_kit_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const barricadeKitBlueprint = {
+export const barricadeKitBlueprint: Item = {
   "id": "barricade_kit_blueprint",
   "name": {
     "en": "Barricade Kit Blueprint",
@@ -49,6 +49,6 @@ export const barricadeKitBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/barricade_kit.png",
   "rarity": "Legendary",
   "updatedAt": "11/13/2025"
-} as Item;
+};
 
 export default barricadeKitBlueprint;

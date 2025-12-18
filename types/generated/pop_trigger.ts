@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/pop_trigger.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const popTrigger = {
+export const popTrigger: Item = {
   "id": "pop_trigger",
   "name": {
     "en": "Pop Trigger",
@@ -55,6 +55,6 @@ export const popTrigger = {
   "stackSize": 3,
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/pop_trigger.png"
-} as Item;
+};
 
 export default popTrigger;

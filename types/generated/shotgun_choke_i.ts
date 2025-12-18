@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/shotgun_choke_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const shotgunChokeI = {
+export const shotgunChokeI: Item = {
   "id": "shotgun_choke_i",
   "name": {
     "en": "Shotgun Choke I",
@@ -77,6 +77,6 @@ export const shotgunChokeI = {
     "wires": 1
   },
   "craftBench": "weapon_bench"
-} as Item;
+};
 
 export default shotgunChokeI;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/backpack_black_hiker_color.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const backpackBlackHikerColor = {
+export const backpackBlackHikerColor: Item = {
   "id": "backpack_black_hiker_color",
   "name": {
     "en": "Backpack (Black Hiker Color)",
@@ -46,6 +46,6 @@ export const backpackBlackHikerColor = {
   "type": "Cosmetic",
   "rarity": "Common",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default backpackBlackHikerColor;

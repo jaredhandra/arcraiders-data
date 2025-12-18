@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/flame_spray.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const flameSpray = {
+export const flameSpray: Item = {
   "id": "flame_spray",
   "name": {
     "en": "Flame Spray",
@@ -93,6 +93,6 @@ export const flameSpray = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/flame_spray.png",
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default flameSpray;

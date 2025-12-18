@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/durable_cloth.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const durableCloth = {
+export const durableCloth: Item = {
   "id": "durable_cloth",
   "name": {
     "en": "Durable Cloth",
@@ -58,6 +58,6 @@ export const durableCloth = {
     "fabric": 14
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default durableCloth;

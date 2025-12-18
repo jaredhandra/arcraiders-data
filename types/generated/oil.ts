@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/oil.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const oil = {
+export const oil: Item = {
   "id": "oil",
   "name": {
     "en": "Oil",
@@ -54,6 +54,6 @@ export const oil = {
   "weightKg": 0.25,
   "stackSize": 15,
   "foundIn": "Mechanical"
-} as Item;
+};
 
 export default oil;

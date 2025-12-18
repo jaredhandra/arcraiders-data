@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/horizontal_grip.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const horizontalGrip = {
+export const horizontalGrip: Item = {
   "id": "horizontal_grip",
   "name": {
     "en": "Horizontal Grip",
@@ -141,6 +141,6 @@ export const horizontalGrip = {
   "blueprintLocked": true,
   "imageFilename": "https://cdn.arctracker.io/items/horizontal_grip.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default horizontalGrip;

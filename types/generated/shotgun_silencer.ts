@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/shotgun_silencer.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const shotgunSilencer = {
+export const shotgunSilencer: Item = {
   "id": "shotgun_silencer",
   "name": {
     "en": "Shotgun Silencer",
@@ -79,6 +79,6 @@ export const shotgunSilencer = {
   "craftBench": "weapon_bench",
   "stationLevelRequired": 3,
   "blueprintLocked": true
-} as Item;
+};
 
 export default shotgunSilencer;
