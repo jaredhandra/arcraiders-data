@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vita_spray.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const vitaSpray = {
+export const vitaSpray: Item = {
   "id": "vita_spray",
   "name": {
     "en": "Vita Spray",
@@ -127,6 +127,6 @@ export const vitaSpray = {
     "canister": 1
   },
   "craftBench": "med_station"
-} as Item;
+};
 
 export default vitaSpray;

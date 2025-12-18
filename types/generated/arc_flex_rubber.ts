@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/arc_flex_rubber.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const arcFlexRubber = {
+export const arcFlexRubber: Item = {
   "id": "arc_flex_rubber",
   "name": {
     "en": "ARC Flex Rubber",
@@ -57,6 +57,6 @@ export const arcFlexRubber = {
   "stackSize": 3,
   "foundIn": "ARC",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default arcFlexRubber;

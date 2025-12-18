@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/expired_respirator.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const expiredRespirator = {
+export const expiredRespirator: Item = {
   "id": "expired_respirator",
   "name": {
     "en": "Expired Respirator",
@@ -58,6 +58,6 @@ export const expiredRespirator = {
   "foundIn": "Medical",
   "imageFilename": "https://cdn.arctracker.io/items/expired_respirator.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default expiredRespirator;

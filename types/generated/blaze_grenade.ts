@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/blaze_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const blazeGrenade = {
+export const blazeGrenade: Item = {
   "id": "blaze_grenade",
   "name": {
     "en": "Blaze Grenade",
@@ -119,6 +119,6 @@ export const blazeGrenade = {
     }
   },
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default blazeGrenade;

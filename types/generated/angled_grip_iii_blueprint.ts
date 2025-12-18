@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/angled_grip_iii_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const angledGripIiiBlueprint = {
+export const angledGripIiiBlueprint: Item = {
   "id": "angled_grip_iii_blueprint",
   "name": {
     "en": "Angled Grip III Blueprint",
@@ -49,6 +49,6 @@ export const angledGripIiiBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/angled_grip_iii.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default angledGripIiiBlueprint;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/mushroom.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const mushroom = {
+export const mushroom: Item = {
   "id": "mushroom",
   "name": {
     "en": "Mushroom",
@@ -95,6 +95,6 @@ export const mushroom = {
     }
   },
   "imageFilename": "https://cdn.arctracker.io/items/mushroom.png"
-} as Item;
+};
 
 export default mushroom;

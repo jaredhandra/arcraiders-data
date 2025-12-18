@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/steel_spring.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const steelSpring = {
+export const steelSpring: Item = {
   "id": "steel_spring",
   "name": {
     "en": "Steel Spring",
@@ -57,6 +57,6 @@ export const steelSpring = {
   "stackSize": 15,
   "foundIn": "Industrial",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default steelSpring;

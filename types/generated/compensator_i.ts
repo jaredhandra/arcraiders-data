@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/compensator_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const compensatorI = {
+export const compensatorI: Item = {
   "id": "compensator_i",
   "name": {
     "en": "Compensator I",
@@ -119,6 +119,6 @@ export const compensatorI = {
     "wires": 1
   },
   "craftBench": "weapon_bench"
-} as Item;
+};
 
 export default compensatorI;

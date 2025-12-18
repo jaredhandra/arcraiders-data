@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/il_toro_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ilToroBlueprint = {
+export const ilToroBlueprint: Item = {
   "id": "il_toro_blueprint",
   "name": {
     "en": "Il Toro Blueprint",
@@ -50,6 +50,6 @@ export const ilToroBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/il_toro.png",
   "rarity": "Legendary",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default ilToroBlueprint;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/frying_pan.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const fryingPan = {
+export const fryingPan: Item = {
   "id": "frying_pan",
   "name": {
     "en": "Frying Pan",
@@ -57,6 +57,6 @@ export const fryingPan = {
   "imageFilename": "https://cdn.arctracker.io/items/frying_pan.png",
   "stackSize": 3,
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default fryingPan;

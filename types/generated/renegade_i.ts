@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/renegade_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const renegadeI = {
+export const renegadeI: Item = {
   "id": "renegade_i",
   "name": {
     "en": "Renegade I",
@@ -168,6 +168,6 @@ export const renegadeI = {
   "craftBench": "weapon_bench",
   "stationLevelRequired": 3,
   "isWeapon": true
-} as Item;
+};
 
 export default renegadeI;

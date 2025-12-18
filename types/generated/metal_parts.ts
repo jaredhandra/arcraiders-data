@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/metal_parts.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const metalParts = {
+export const metalParts: Item = {
   "id": "metal_parts",
   "name": {
     "en": "Metal Parts",
@@ -52,6 +52,6 @@ export const metalParts = {
   "foundIn": "Mechanical, Industrial, Electrical, Technological",
   "imageFilename": "https://cdn.arctracker.io/items/metal_parts.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default metalParts;

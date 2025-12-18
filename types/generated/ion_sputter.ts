@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/ion_sputter.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ionSputter = {
+export const ionSputter: Item = {
   "name": {
     "en": "Ion Sputter",
     "de": "Ionenzerstäuber",
@@ -55,6 +55,6 @@ export const ionSputter = {
     "voltage_converter": 4,
     "exodus_modules": 1
   }
-} as Item;
+};
 
 export default ionSputter;

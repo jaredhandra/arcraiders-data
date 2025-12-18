@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/flushing_terminal_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const flushingTerminalKey = {
+export const flushingTerminalKey: Item = {
   "id": "flushing_terminal_key",
   "name": {
     "en": "Flushing Terminal Key",
@@ -50,6 +50,6 @@ export const flushingTerminalKey = {
   "weightKg": 0.25,
   "stackSize": 1,
   "rarity": "Common"
-} as Item;
+};
 
 export default flushingTerminalKey;

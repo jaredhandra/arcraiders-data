@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/sensors.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const sensors = {
+export const sensors: Item = {
   "id": "sensors",
   "name": {
     "en": "Sensors",
@@ -58,6 +58,6 @@ export const sensors = {
   "foundIn": "Security, Technological",
   "imageFilename": "https://cdn.arctracker.io/items/sensors.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default sensors;

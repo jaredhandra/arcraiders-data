@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/remote_raider_flare_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const remoteRaiderFlareBlueprint = {
+export const remoteRaiderFlareBlueprint: Item = {
   "id": "remote_raider_flare_blueprint",
   "name": {
     "en": "Remote Raider Flare Blueprint",
@@ -49,6 +49,6 @@ export const remoteRaiderFlareBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/remote_raider_flare.png",
   "updatedAt": "11/17/2025"
-} as Item;
+};
 
 export default remoteRaiderFlareBlueprint;

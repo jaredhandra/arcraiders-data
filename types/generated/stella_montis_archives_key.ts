@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/stella_montis_archives_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const stellaMontisArchivesKey = {
+export const stellaMontisArchivesKey: Item = {
   "id": "stella_montis_archives_key",
   "name": {
     "en": "Stella Montis Archives Key",
@@ -73,6 +73,6 @@ export const stellaMontisArchivesKey = {
   },
   "updatedAt": "12/07/2025",
   "imageFilename": "https://cdn.arctracker.io/items/stella_montis_archives_key.png"
-} as Item;
+};
 
 export default stellaMontisArchivesKey;

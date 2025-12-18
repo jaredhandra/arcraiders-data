@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/faded_photograph.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const fadedPhotograph = {
+export const fadedPhotograph: Item = {
   "id": "faded_photograph",
   "name": {
     "en": "Faded Photograph",
@@ -52,6 +52,6 @@ export const fadedPhotograph = {
   "foundIn": "Residential",
   "updatedAt": "11/03/2025",
   "imageFilename": "https://cdn.arctracker.io/items/faded_photograph.png"
-} as Item;
+};
 
 export default fadedPhotograph;

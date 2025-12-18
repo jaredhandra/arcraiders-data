@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/remote_raider_flare.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const remoteRaiderFlare = {
+export const remoteRaiderFlare: Item = {
   "id": "remote_raider_flare",
   "name": {
     "en": "Remote Raider Flare",
@@ -59,6 +59,6 @@ export const remoteRaiderFlare = {
     "rubber_parts": 4
   },
   "craftBench": "utility_bench"
-} as Item;
+};
 
 export default remoteRaiderFlare;

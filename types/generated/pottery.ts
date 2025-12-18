@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/pottery.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const pottery = {
+export const pottery: Item = {
   "id": "pottery",
   "name": {
     "en": "Pottery",
@@ -52,6 +52,6 @@ export const pottery = {
   "foundIn": "Old World, Residential",
   "updatedAt": "11/03/2025",
   "imageFilename": "https://cdn.arctracker.io/items/pottery.png"
-} as Item;
+};
 
 export default pottery;

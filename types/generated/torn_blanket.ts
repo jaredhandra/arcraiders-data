@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/torn_blanket.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tornBlanket = {
+export const tornBlanket: Item = {
   "id": "torn_blanket",
   "name": {
     "en": "Torn Blanket",
@@ -54,6 +54,6 @@ export const tornBlanket = {
   "foundIn": "Residential, Medical",
   "imageFilename": "https://cdn.arctracker.io/items/torn_blanket.png",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default tornBlanket;

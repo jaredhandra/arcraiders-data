@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/magnet.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const magnet = {
+export const magnet: Item = {
   "id": "magnet",
   "name": {
     "en": "Magnet",
@@ -54,6 +54,6 @@ export const magnet = {
   "stackSize": 15,
   "foundIn": "Exodus",
   "imageFilename": "https://cdn.arctracker.io/items/magnet.png"
-} as Item;
+};
 
 export default magnet;

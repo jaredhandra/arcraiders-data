@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/muzzle_brake_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const muzzleBrakeIi = {
+export const muzzleBrakeIi: Item = {
   "id": "muzzle_brake_ii",
   "name": {
     "en": "Muzzle Brake II",
@@ -109,6 +109,6 @@ export const muzzleBrakeIi = {
   ],
   "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_ii.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default muzzleBrakeIi;

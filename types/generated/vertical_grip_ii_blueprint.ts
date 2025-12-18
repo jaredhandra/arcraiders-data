@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vertical_grip_ii_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const verticalGripIiBlueprint = {
+export const verticalGripIiBlueprint: Item = {
   "id": "vertical_grip_ii_blueprint",
   "name": {
     "en": "Vertical Grip II Blueprint",
@@ -49,6 +49,6 @@ export const verticalGripIiBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/vertical_grip_ii.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default verticalGripIiBlueprint;

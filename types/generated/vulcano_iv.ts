@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vulcano_iv.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const vulcanoIv = {
+export const vulcanoIv: Item = {
   "id": "vulcano_iv",
   "name": {
     "en": "Vulcano IV",
@@ -215,6 +215,6 @@ export const vulcanoIv = {
   "imageFilename": "https://cdn.arctracker.io/items/vulcano.png",
   "updatedAt": "11/12/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default vulcanoIv;

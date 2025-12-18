@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/wolfpack_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const wolfpackBlueprint = {
+export const wolfpackBlueprint: Item = {
   "id": "wolfpack_blueprint",
   "name": {
     "en": "Wolfpack Blueprint",
@@ -49,6 +49,6 @@ export const wolfpackBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/wolfpack_blueprint.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default wolfpackBlueprint;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/music_album.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const musicAlbum = {
+export const musicAlbum: Item = {
   "id": "music_album",
   "name": {
     "en": "Music Album",
@@ -52,6 +52,6 @@ export const musicAlbum = {
   "weightKg": 0.3,
   "stackSize": 3,
   "imageFilename": "https://cdn.arctracker.io/items/music_album.png"
-} as Item;
+};
 
 export default musicAlbum;

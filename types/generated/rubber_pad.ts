@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rubber_pad.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rubberPad = {
+export const rubberPad: Item = {
   "id": "rubber_pad",
   "name": {
     "en": "Rubber Pad",
@@ -57,6 +57,6 @@ export const rubberPad = {
   "stackSize": 3,
   "imageFilename": "https://cdn.arctracker.io/items/rubber_pad.png",
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default rubberPad;

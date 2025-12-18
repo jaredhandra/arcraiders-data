@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/snap_blast_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const snapBlastGrenade = {
+export const snapBlastGrenade: Item = {
   "id": "snap_blast_grenade",
   "name": {
     "en": "Snap Blast Grenade",
@@ -103,6 +103,6 @@ export const snapBlastGrenade = {
     "magnet": 1
   },
   "craftBench": "explosives_bench"
-} as Item;
+};
 
 export default snapBlastGrenade;

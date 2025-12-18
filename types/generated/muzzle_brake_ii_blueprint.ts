@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/muzzle_brake_ii_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const muzzleBrakeIiBlueprint = {
+export const muzzleBrakeIiBlueprint: Item = {
   "id": "muzzle_brake_ii_blueprint",
   "name": {
     "en": "Muzzle Brake II Blueprint",
@@ -93,6 +93,6 @@ export const muzzleBrakeIiBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/muzzle_brake_ii.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default muzzleBrakeIiBlueprint;

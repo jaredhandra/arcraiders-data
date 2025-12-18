@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tactical_mk3_defensive_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tacticalMk3DefensiveBlueprint = {
+export const tacticalMk3DefensiveBlueprint: Item = {
   "id": "tactical_mk3_defensive_blueprint",
   "name": {
     "en": "Tactical Mk. 3 (Defensive) Blueprint",
@@ -49,6 +49,6 @@ export const tacticalMk3DefensiveBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default tacticalMk3DefensiveBlueprint;

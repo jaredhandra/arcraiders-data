@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/household_cleaner.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const householdCleaner = {
+export const householdCleaner: Item = {
   "id": "household_cleaner",
   "name": {
     "en": "Household Cleaner",
@@ -54,6 +54,6 @@ export const householdCleaner = {
   "foundIn": "Residential",
   "imageFilename": "https://cdn.arctracker.io/items/household_cleaner.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default householdCleaner;

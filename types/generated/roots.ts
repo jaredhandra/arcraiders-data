@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/roots.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const roots = {
+export const roots: Item = {
   "id": "roots",
   "name": {
     "en": "Roots",
@@ -54,6 +54,6 @@ export const roots = {
   "weightKg": 0.2,
   "stackSize": 10,
   "foundIn": "Nature"
-} as Item;
+};
 
 export default roots;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/looting_mk1.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lootingMk1 = {
+export const lootingMk1: Item = {
   "id": "looting_mk1",
   "name": {
     "en": "Looting Mk. 1",
@@ -126,6 +126,6 @@ export const lootingMk1 = {
     "equipment_bench",
     "workbench"
   ]
-} as Item;
+};
 
 export default lootingMk1;

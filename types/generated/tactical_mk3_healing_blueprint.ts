@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tactical_mk3_healing_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tacticalMk3HealingBlueprint = {
+export const tacticalMk3HealingBlueprint: Item = {
   "id": "tactical_mk3_healing_blueprint",
   "name": {
     "en": "Tactical Mk. 3 (Healing) Blueprint",
@@ -49,6 +49,6 @@ export const tacticalMk3HealingBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_healing_blueprint.png",
   "rarity": "Legendary",
   "updatedAt": "11/11/2025"
-} as Item;
+};
 
 export default tacticalMk3HealingBlueprint;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/garlic_press.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const garlicPress = {
+export const garlicPress: Item = {
   "id": "garlic_press",
   "name": {
     "en": "Garlic Press",
@@ -57,6 +57,6 @@ export const garlicPress = {
   },
   "updatedAt": "11/04/2025",
   "foundIn": "Residential, Commercial"
-} as Item;
+};
 
 export default garlicPress;

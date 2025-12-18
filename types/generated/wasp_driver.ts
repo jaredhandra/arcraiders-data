@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/wasp_driver.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const waspDriver = {
+export const waspDriver: Item = {
   "id": "wasp_driver",
   "name": {
     "en": "Wasp Driver",
@@ -103,6 +103,6 @@ export const waspDriver = {
     }
   },
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default waspDriver;

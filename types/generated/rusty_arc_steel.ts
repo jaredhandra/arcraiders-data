@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rusty_arc_steel.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rustyArcSteel = {
+export const rustyArcSteel: Item = {
   "id": "rusty_arc_steel",
   "name": {
     "en": "Rusty ARC Steel",
@@ -57,6 +57,6 @@ export const rustyArcSteel = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/rusty_arc_steel.png",
   "updatedAt": "11/17/2025"
-} as Item;
+};
 
 export default rustyArcSteel;

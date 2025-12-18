@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/lil_smoke_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lilSmokeGrenade = {
+export const lilSmokeGrenade: Item = {
   "id": "lil_smoke_grenade",
   "name": {
     "en": "Li'l Smoke Grenade",
@@ -103,6 +103,6 @@ export const lilSmokeGrenade = {
     "plastic_parts": 1
   },
   "craftBench": "utility_bench"
-} as Item;
+};
 
 export default lilSmokeGrenade;

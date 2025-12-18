@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/canister.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const canister = {
+export const canister: Item = {
   "id": "canister",
   "name": {
     "en": "Canister",
@@ -54,6 +54,6 @@ export const canister = {
   "stackSize": 15,
   "foundIn": "Commercial",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default canister;

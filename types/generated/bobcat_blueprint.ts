@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/bobcat_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const bobcatBlueprint = {
+export const bobcatBlueprint: Item = {
   "id": "bobcat_blueprint",
   "name": {
     "en": "Bobcat Blueprint",
@@ -49,6 +49,6 @@ export const bobcatBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/bobcat.png",
   "updatedAt": "11/25/2025"
-} as Item;
+};
 
 export default bobcatBlueprint;

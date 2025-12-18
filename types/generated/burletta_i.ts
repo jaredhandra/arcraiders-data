@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/burletta_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const burlettaI = {
+export const burlettaI: Item = {
   "id": "burletta_i",
   "name": {
     "en": "Burletta I",
@@ -167,6 +167,6 @@ export const burlettaI = {
   },
   "craftBench": "weapon_bench",
   "isWeapon": true
-} as Item;
+};
 
 export default burlettaI;

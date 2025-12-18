@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/projector.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const projector = {
+export const projector: Item = {
   "id": "projector",
   "name": {
     "en": "Projector",
@@ -58,6 +58,6 @@ export const projector = {
   "foundIn": "Residential",
   "imageFilename": "https://cdn.arctracker.io/items/projector.png",
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default projector;

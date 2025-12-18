@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/painted_box.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const paintedBox = {
+export const paintedBox: Item = {
   "id": "painted_box",
   "name": {
     "en": "Painted Box",
@@ -52,6 +52,6 @@ export const paintedBox = {
   "foundIn": "Old World",
   "updatedAt": "11/03/2025",
   "imageFilename": "https://cdn.arctracker.io/items/painted_box.png"
-} as Item;
+};
 
 export default paintedBox;

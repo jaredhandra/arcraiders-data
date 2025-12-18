@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/zipline.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const zipline = {
+export const zipline: Item = {
   "id": "zipline",
   "name": {
     "en": "Zipline",
@@ -58,6 +58,6 @@ export const zipline = {
     "rope": 1,
     "mechanical_components": 1
   }
-} as Item;
+};
 
 export default zipline;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/fireworks_box.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const fireworksBox = {
+export const fireworksBox: Item = {
   "id": "fireworks_box",
   "name": {
     "en": "Fireworks Box",
@@ -63,6 +63,6 @@ export const fireworksBox = {
   "blueprintLocked": true,
   "imageFilename": "https://cdn.arctracker.io/items/fireworks_box.png",
   "updatedAt": "12/16/2025"
-} as Item;
+};
 
 export default fireworksBox;

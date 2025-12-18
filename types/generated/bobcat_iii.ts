@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/bobcat_iii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const bobcatIii = {
+export const bobcatIii: Item = {
   "id": "bobcat_iii",
   "name": {
     "en": "Bobcat III",
@@ -357,6 +357,6 @@ export const bobcatIii = {
     "light_gun_parts": 3
   },
   "isWeapon": true
-} as Item;
+};
 
 export default bobcatIii;

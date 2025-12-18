@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/major_aivas_patch.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const majorAivasPatch = {
+export const majorAivasPatch: Item = {
   "name": {
     "en": "Major Aiva's Patch",
     "de": "Major Aivas Abzeichen",
@@ -71,6 +71,6 @@ export const majorAivasPatch = {
   "imageFilename": "https://cdn.arctracker.io/items/major_aivas_patch.png",
   "rarity": "Common",
   "updatedAt": "11/17/2025"
-} as Item;
+};
 
 export default majorAivasPatch;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/stable_stock_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const stableStockI = {
+export const stableStockI: Item = {
   "id": "stable_stock_i",
   "name": {
     "en": "Stable Stock I",
@@ -111,6 +111,6 @@ export const stableStockI = {
   },
   "updatedAt": "11/03/2025",
   "craftBench": "weapon_bench"
-} as Item;
+};
 
 export default stableStockI;

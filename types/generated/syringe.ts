@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/syringe.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const syringe = {
+export const syringe: Item = {
   "id": "syringe",
   "name": {
     "en": "Syringe",
@@ -58,6 +58,6 @@ export const syringe = {
   "foundIn": "Medical",
   "imageFilename": "https://cdn.arctracker.io/items/syringe.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default syringe;

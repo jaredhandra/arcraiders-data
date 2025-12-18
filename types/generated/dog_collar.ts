@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/dog_collar.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const dogCollar = {
+export const dogCollar: Item = {
   "id": "dog_collar",
   "name": {
     "en": "Dog Collar",
@@ -58,6 +58,6 @@ export const dogCollar = {
   "stackSize": 3,
   "foundIn": "Residential",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default dogCollar;

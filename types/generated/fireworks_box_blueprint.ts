@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/fireworks_box_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const fireworksBoxBlueprint = {
+export const fireworksBoxBlueprint: Item = {
   "id": "fireworks_box_blueprint",
   "name": {
     "en": "Fireworks Box Blueprint",
@@ -49,6 +49,6 @@ export const fireworksBoxBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/fireworks_box.png",
   "updatedAt": "12/16/2025"
-} as Item;
+};
 
 export default fireworksBoxBlueprint;

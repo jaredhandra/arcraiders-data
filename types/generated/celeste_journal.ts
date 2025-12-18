@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/celeste_journal.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const celesteJournal = {
+export const celesteJournal: Item = {
   "id": "celeste_journal",
   "name": {
     "en": "Celeste's Journal",
@@ -48,6 +48,6 @@ export const celesteJournal = {
   "imageFilename": "https://cdn.arctracker.io/items/celestes_journal.png",
   "rarity": "Common",
   "updatedAt": "11/09/2025"
-} as Item;
+};
 
 export default celesteJournal;

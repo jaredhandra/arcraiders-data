@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/radio_renegade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const radioRenegade = {
+export const radioRenegade: Item = {
   "id": "radio_renegade",
   "name": {
     "en": "Radio Renegade",
@@ -47,6 +47,6 @@ export const radioRenegade = {
   "imageFilename": "https://cdn.arctracker.io/items/radio_renegade.png",
   "rarity": "Common",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default radioRenegade;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rusted_tools.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rustedTools = {
+export const rustedTools: Item = {
   "id": "rusted_tools",
   "name": {
     "en": "Rusted Tools",
@@ -57,6 +57,6 @@ export const rustedTools = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/rusted_tools.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default rustedTools;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/medium_shield.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const mediumShield = {
+export const mediumShield: Item = {
   "id": "medium_shield",
   "name": {
     "en": "Medium Shield",
@@ -147,6 +147,6 @@ export const mediumShield = {
     "battery": 4
   },
   "craftBench": "equipment_bench"
-} as Item;
+};
 
 export default mediumShield;

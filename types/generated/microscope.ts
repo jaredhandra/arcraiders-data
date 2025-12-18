@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/microscope.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const microscope = {
+export const microscope: Item = {
   "name": {
     "en": "Microscope",
     "de": "Mikroskop",
@@ -55,6 +55,6 @@ export const microscope = {
     "advanced_mechanical_components": 1,
     "magnet": 3
   }
-} as Item;
+};
 
 export default microscope;

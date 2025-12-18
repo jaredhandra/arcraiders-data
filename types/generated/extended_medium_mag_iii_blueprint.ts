@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/extended_medium_mag_iii_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const extendedMediumMagIiiBlueprint = {
+export const extendedMediumMagIiiBlueprint: Item = {
   "id": "extended_medium_mag_iii_blueprint",
   "name": {
     "en": "Extended Medium Mag III Blueprint",
@@ -73,6 +73,6 @@ export const extendedMediumMagIiiBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/extended_medium_mag_iii.png",
   "rarity": "Legendary",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default extendedMediumMagIiiBlueprint;

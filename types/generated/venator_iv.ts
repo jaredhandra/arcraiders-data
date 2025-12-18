@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/venator_iv.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const venatorIv = {
+export const venatorIv: Item = {
   "id": "venator_iv",
   "name": {
     "en": "Venator IV",
@@ -229,6 +229,6 @@ export const venatorIv = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/venator.png",
   "isWeapon": true
-} as Item;
+};
 
 export default venatorIv;

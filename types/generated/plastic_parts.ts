@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/plastic_parts.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const plasticParts = {
+export const plasticParts: Item = {
   "id": "plastic_parts",
   "name": {
     "en": "Plastic Parts",
@@ -52,6 +52,6 @@ export const plasticParts = {
   "foundIn": "Commercial, Residential, Technological",
   "imageFilename": "https://cdn.arctracker.io/items/plastic_parts.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default plasticParts;

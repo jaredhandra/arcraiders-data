@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/degraded_arc_rubber.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const degradedArcRubber = {
+export const degradedArcRubber: Item = {
   "id": "degraded_arc_rubber",
   "name": {
     "en": "Degraded ARC Rubber",
@@ -57,6 +57,6 @@ export const degradedArcRubber = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/degraded_arc_rubber.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default degradedArcRubber;

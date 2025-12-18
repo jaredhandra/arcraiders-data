@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/red_light_stick.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const redLightStick = {
+export const redLightStick: Item = {
   "id": "red_light_stick",
   "name": {
     "en": "Red Light Stick",
@@ -102,6 +102,6 @@ export const redLightStick = {
   },
   "craftBench": "utility_bench",
   "stationLevelRequired": 1
-} as Item;
+};
 
 export default redLightStick;

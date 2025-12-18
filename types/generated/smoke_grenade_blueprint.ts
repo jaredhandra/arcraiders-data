@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/smoke_grenade_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const smokeGrenadeBlueprint = {
+export const smokeGrenadeBlueprint: Item = {
   "id": "smoke_grenade_blueprint",
   "name": {
     "en": "Smoke Grenade Blueprint",
@@ -49,6 +49,6 @@ export const smokeGrenadeBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/smoke_grenade.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default smokeGrenadeBlueprint;

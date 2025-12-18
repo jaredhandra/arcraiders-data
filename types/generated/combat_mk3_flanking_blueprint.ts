@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/combat_mk3_flanking_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const combatMk3FlankingBlueprint = {
+export const combatMk3FlankingBlueprint: Item = {
   "id": "combat_mk3_flanking_blueprint",
   "name": {
     "en": "Combat Mk. 3 (Flanking) Blueprint",
@@ -49,6 +49,6 @@ export const combatMk3FlankingBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default combatMk3FlankingBlueprint;

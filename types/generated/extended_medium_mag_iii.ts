@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/extended_medium_mag_iii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const extendedMediumMagIii = {
+export const extendedMediumMagIii: Item = {
   "id": "extended_medium_mag_iii",
   "name": {
     "en": "Extended Medium Mag III",
@@ -81,6 +81,6 @@ export const extendedMediumMagIii = {
     "steel_spring": 5
   },
   "craftBench": "weapon_bench"
-} as Item;
+};
 
 export default extendedMediumMagIii;

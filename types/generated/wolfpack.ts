@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/wolfpack.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const wolfpack = {
+export const wolfpack: Item = {
   "id": "wolfpack",
   "name": {
     "en": "Wolfpack",
@@ -103,6 +103,6 @@ export const wolfpack = {
     "arc_motion_core": 2
   },
   "craftBench": "explosives_bench"
-} as Item;
+};
 
 export default wolfpack;

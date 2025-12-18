@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/air_freshener.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const airFreshener = {
+export const airFreshener: Item = {
   "id": "air_freshener",
   "name": {
     "en": "Air Freshener",
@@ -51,6 +51,6 @@ export const airFreshener = {
   "weightKg": 0.3,
   "stackSize": 5,
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default airFreshener;

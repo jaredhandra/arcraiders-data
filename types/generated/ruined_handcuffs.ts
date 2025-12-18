@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/ruined_handcuffs.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ruinedHandcuffs = {
+export const ruinedHandcuffs: Item = {
   "id": "ruined_handcuffs",
   "name": {
     "en": "Ruined Handcuffs",
@@ -54,6 +54,6 @@ export const ruinedHandcuffs = {
   "foundIn": "Security",
   "imageFilename": "https://cdn.arctracker.io/items/ruined_handcuffs.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default ruinedHandcuffs;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/showstopper_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const showstopperBlueprint = {
+export const showstopperBlueprint: Item = {
   "id": "showstopper_blueprint",
   "name": {
     "en": "Showstopper Blueprint",
@@ -49,6 +49,6 @@ export const showstopperBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/showstopper.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default showstopperBlueprint;

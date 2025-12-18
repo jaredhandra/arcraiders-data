@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/defibrillator.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const defibrillator = {
+export const defibrillator: Item = {
   "id": "defibrillator",
   "name": {
     "en": "Defibrillator",
@@ -103,6 +103,6 @@ export const defibrillator = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/defibrillator.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default defibrillator;

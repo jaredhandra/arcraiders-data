@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/kettle_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const kettleI = {
+export const kettleI: Item = {
   "id": "kettle_i",
   "name": {
     "en": "Kettle I",
@@ -169,6 +169,6 @@ export const kettleI = {
     }
   },
   "isWeapon": true
-} as Item;
+};
 
 export default kettleI;

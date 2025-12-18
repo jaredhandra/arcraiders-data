@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/advanced_arc_powercell.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const advancedArcPowercell = {
+export const advancedArcPowercell: Item = {
   "id": "advanced_arc_powercell",
   "name": {
     "en": "Advanced ARC Powercell",
@@ -54,6 +54,6 @@ export const advancedArcPowercell = {
   "stackSize": 5,
   "foundIn": "ARC",
   "updatedAt": "11/05/2025"
-} as Item;
+};
 
 export default advancedArcPowercell;

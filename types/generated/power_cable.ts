@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/power_cable.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const powerCable = {
+export const powerCable: Item = {
   "id": "power_cable",
   "name": {
     "en": "Power Cable",
@@ -54,6 +54,6 @@ export const powerCable = {
   "foundIn": "Electrical, Residential, Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/power_cable.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default powerCable;

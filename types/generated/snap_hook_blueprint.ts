@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/snap_hook_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const snapHookBlueprint = {
+export const snapHookBlueprint: Item = {
   "id": "snap_hook_blueprint",
   "name": {
     "en": "Snap Hook Blueprint",
@@ -49,6 +49,6 @@ export const snapHookBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/snap_hook.png",
   "updatedAt": "11/14/2025"
-} as Item;
+};
 
 export default snapHookBlueprint;

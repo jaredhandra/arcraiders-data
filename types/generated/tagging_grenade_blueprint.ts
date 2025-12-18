@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tagging_grenade_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const taggingGrenadeBlueprint = {
+export const taggingGrenadeBlueprint: Item = {
   "id": "tagging_grenade_blueprint",
   "name": {
     "en": "Tagging Grenade Blueprint",
@@ -49,6 +49,6 @@ export const taggingGrenadeBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/tagging_grenade.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default taggingGrenadeBlueprint;

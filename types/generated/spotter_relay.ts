@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/spotter_relay.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const spotterRelay = {
+export const spotterRelay: Item = {
   "id": "spotter_relay",
   "name": {
     "en": "Spotter Relay",
@@ -55,6 +55,6 @@ export const spotterRelay = {
   "stackSize": 3,
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/spotter_relay.png"
-} as Item;
+};
 
 export default spotterRelay;

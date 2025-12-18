@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/silencer_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const silencerI = {
+export const silencerI: Item = {
   "id": "silencer_i",
   "name": {
     "en": "Silencer I",
@@ -72,6 +72,6 @@ export const silencerI = {
   "value": 2000,
   "weightKg": 0.25,
   "imageFilename": "https://cdn.arctracker.io/items/silencer_i.png"
-} as Item;
+};
 
 export default silencerI;

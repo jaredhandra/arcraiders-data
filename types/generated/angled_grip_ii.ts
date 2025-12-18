@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/angled_grip_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const angledGripIi = {
+export const angledGripIi: Item = {
   "id": "angled_grip_ii",
   "name": {
     "en": "Angled Grip II",
@@ -90,6 +90,6 @@ export const angledGripIi = {
   ],
   "imageFilename": "https://cdn.arctracker.io/items/angled_grip_ii.png",
   "updatedAt": "11/05/2025"
-} as Item;
+};
 
 export default angledGripIi;

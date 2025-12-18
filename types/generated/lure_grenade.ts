@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/lure_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lureGrenade = {
+export const lureGrenade: Item = {
   "id": "lure_grenade",
   "name": {
     "en": "Lure Grenade",
@@ -57,6 +57,6 @@ export const lureGrenade = {
   "recyclesInto": {
     "speaker_component": 1
   }
-} as Item;
+};
 
 export default lureGrenade;

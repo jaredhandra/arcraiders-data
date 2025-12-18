@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/red_coral_jewelry.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const redCoralJewelry = {
+export const redCoralJewelry: Item = {
   "id": "red_coral_jewelry",
   "name": {
     "en": "Red Coral Jewelry",
@@ -52,6 +52,6 @@ export const redCoralJewelry = {
   "stackSize": 3,
   "foundIn": "Residential, Old World, Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/red_coral_jewelry.png"
-} as Item;
+};
 
 export default redCoralJewelry;

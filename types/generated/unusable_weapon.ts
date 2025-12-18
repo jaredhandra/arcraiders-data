@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/unusable_weapon.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const unusableWeapon = {
+export const unusableWeapon: Item = {
   "id": "unusable_weapon",
   "name": {
     "en": "Unusable Weapon",
@@ -57,6 +57,6 @@ export const unusableWeapon = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/unusable_weapon.png",
   "updatedAt": "11/09/2025"
-} as Item;
+};
 
 export default unusableWeapon;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/humidifier.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const humidifier = {
+export const humidifier: Item = {
   "id": "humidifier",
   "name": {
     "en": "Humidifier",
@@ -55,6 +55,6 @@ export const humidifier = {
   "stackSize": 3,
   "imageFilename": "https://cdn.arctracker.io/items/humidifier.png",
   "updatedAt": "12/01/2025"
-} as Item;
+};
 
 export default humidifier;

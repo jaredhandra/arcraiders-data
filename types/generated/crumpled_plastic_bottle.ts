@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/crumpled_plastic_bottle.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const crumpledPlasticBottle = {
+export const crumpledPlasticBottle: Item = {
   "id": "crumpled_plastic_bottle",
   "name": {
     "en": "Crumpled Plastic Bottle",
@@ -57,6 +57,6 @@ export const crumpledPlasticBottle = {
     "plastic_parts": 1
   },
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default crumpledPlasticBottle;

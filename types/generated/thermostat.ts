@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/thermostat.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const thermostat = {
+export const thermostat: Item = {
   "id": "thermostat",
   "name": {
     "en": "Thermostat",
@@ -58,6 +58,6 @@ export const thermostat = {
   "stackSize": 3,
   "foundIn": "Residential",
   "imageFilename": "https://cdn.arctracker.io/items/thermostat.png"
-} as Item;
+};
 
 export default thermostat;

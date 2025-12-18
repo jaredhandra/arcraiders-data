@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/first_wave_rations.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const firstWaveRations = {
+export const firstWaveRations: Item = {
   "name": {
     "en": "First Wave Rations",
     "de": "Erste-Welle-Rationen",
@@ -48,6 +48,6 @@ export const firstWaveRations = {
   "imageFilename": "https://cdn.arctracker.io/items/first_wave_rations.png",
   "rarity": "Common",
   "updatedAt": "11/17/2025"
-} as Item;
+};
 
 export default firstWaveRations;

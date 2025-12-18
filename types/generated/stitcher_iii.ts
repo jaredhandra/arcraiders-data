@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/stitcher_iii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const stitcherIii = {
+export const stitcherIii: Item = {
   "id": "stitcher_iii",
   "name": {
     "en": "Stitcher III",
@@ -210,6 +210,6 @@ export const stitcherIii = {
     "simple_gun_parts": 1
   },
   "isWeapon": true
-} as Item;
+};
 
 export default stitcherIii;

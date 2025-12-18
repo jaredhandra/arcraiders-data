@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vertical_grip_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const verticalGripIi = {
+export const verticalGripIi: Item = {
   "id": "vertical_grip_ii",
   "name": {
     "en": "Vertical Grip II",
@@ -90,6 +90,6 @@ export const verticalGripIi = {
   "craftBench": "weapon_bench",
   "stationLevelRequired": 2,
   "blueprintLocked": true
-} as Item;
+};
 
 export default verticalGripIi;

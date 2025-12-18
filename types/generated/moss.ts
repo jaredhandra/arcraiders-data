@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/moss.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const moss = {
+export const moss: Item = {
   "id": "moss",
   "name": {
     "en": "Moss",
@@ -122,6 +122,6 @@ export const moss = {
   },
   "updatedAt": "11/04/2025",
   "imageFilename": "https://cdn.arctracker.io/items/moss.png"
-} as Item;
+};
 
 export default moss;

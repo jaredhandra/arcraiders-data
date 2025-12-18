@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/damaged_heat_sink.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damagedHeatSink = {
+export const damagedHeatSink: Item = {
   "id": "damaged_heat_sink",
   "name": {
     "en": "Damaged Heat Sink",
@@ -58,6 +58,6 @@ export const damagedHeatSink = {
   "foundIn": "Technological",
   "stackSize": 3,
   "updatedAt": "11/06/2025"
-} as Item;
+};
 
 export default damagedHeatSink;

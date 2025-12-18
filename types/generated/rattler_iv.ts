@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rattler_iv.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rattlerIv = {
+export const rattlerIv: Item = {
   "id": "rattler_iv",
   "name": {
     "en": "Rattler IV",
@@ -176,6 +176,6 @@ export const rattlerIv = {
   "imageFilename": "https://cdn.arctracker.io/items/rattler.png",
   "updatedAt": "12/16/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default rattlerIv;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/diving_goggles.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const divingGoggles = {
+export const divingGoggles: Item = {
   "id": "diving_goggles",
   "name": {
     "en": "Diving Goggles",
@@ -54,6 +54,6 @@ export const divingGoggles = {
   "foundIn": "Residential",
   "imageFilename": "https://cdn.arctracker.io/items/diving_goggles.png",
   "updatedAt": "11/23/2025"
-} as Item;
+};
 
 export default divingGoggles;

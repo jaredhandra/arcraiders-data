@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/ruined_parachute.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ruinedParachute = {
+export const ruinedParachute: Item = {
   "id": "ruined_parachute",
   "name": {
     "en": "Ruined Parachute",
@@ -57,6 +57,6 @@ export const ruinedParachute = {
   "foundIn": "Exodus",
   "imageFilename": "https://cdn.arctracker.io/items/ruined_parachute.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default ruinedParachute;

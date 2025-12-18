@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/matriarch_reactor.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const matriarchReactor = {
+export const matriarchReactor: Item = {
   "id": "matriarch_reactor",
   "name": {
     "en": "Matriarch Reactor",
@@ -57,6 +57,6 @@ export const matriarchReactor = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/matriarch_reactor.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default matriarchReactor;

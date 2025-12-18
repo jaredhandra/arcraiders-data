@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/expired_pasta.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const expiredPasta = {
+export const expiredPasta: Item = {
   "id": "expired_pasta",
   "name": {
     "en": "Expired Pasta",
@@ -95,6 +95,6 @@ export const expiredPasta = {
   "imageFilename": "https://cdn.arctracker.io/items/expired_pasta.png",
   "rarity": "Common",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default expiredPasta;

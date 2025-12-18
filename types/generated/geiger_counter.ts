@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/geiger_counter.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const geigerCounter = {
+export const geigerCounter: Item = {
   "name": {
     "en": "Geiger Counter",
     "de": "Geigerzähler",
@@ -55,6 +55,6 @@ export const geigerCounter = {
     "battery": 3,
     "exodus_modules": 1
   }
-} as Item;
+};
 
 export default geigerCounter;

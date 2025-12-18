@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/snap_hook.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const snapHook = {
+export const snapHook: Item = {
   "id": "snap_hook",
   "name": {
     "en": "Snap Hook",
@@ -103,6 +103,6 @@ export const snapHook = {
   },
   "craftBench": "utility_bench",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default snapHook;

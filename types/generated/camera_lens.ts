@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/camera_lens.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const cameraLens = {
+export const cameraLens: Item = {
   "id": "camera_lens",
   "name": {
     "en": "Camera Lens",
@@ -57,6 +57,6 @@ export const cameraLens = {
   "foundIn": "Security",
   "imageFilename": "https://cdn.arctracker.io/items/camera_lens.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default cameraLens;

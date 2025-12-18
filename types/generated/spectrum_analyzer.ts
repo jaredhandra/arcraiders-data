@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/spectrum_analyzer.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const spectrumAnalyzer = {
+export const spectrumAnalyzer: Item = {
   "name": {
     "en": "Spectrum Analyzer",
     "de": "Spektrumanalysator",
@@ -54,6 +54,6 @@ export const spectrumAnalyzer = {
     "sensors": 1,
     "exodus_modules": 1
   }
-} as Item;
+};
 
 export default spectrumAnalyzer;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rubber_parts.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rubberParts = {
+export const rubberParts: Item = {
   "id": "rubber_parts",
   "name": {
     "en": "Rubber Parts",
@@ -52,6 +52,6 @@ export const rubberParts = {
   "foundIn": "Mechanical, Industrial, Electrical",
   "imageFilename": "https://cdn.arctracker.io/items/rubber_parts.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default rubberParts;

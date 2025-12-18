@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/ripped_safety_vest.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rippedSafetyVest = {
+export const rippedSafetyVest: Item = {
   "id": "ripped_safety_vest",
   "name": {
     "en": "Ripped Safety Vest",
@@ -57,6 +57,6 @@ export const rippedSafetyVest = {
   "stackSize": 3,
   "imageFilename": "https://cdn.arctracker.io/items/ripped_safety_vest.png",
   "updatedAt": "11/29/2025"
-} as Item;
+};
 
 export default rippedSafetyVest;

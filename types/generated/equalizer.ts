@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/equalizer.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const equalizer = {
+export const equalizer: Item = {
   "id": "equalizer",
   "name": {
     "en": "Equalizer",
@@ -161,6 +161,6 @@ export const equalizer = {
   "imageFilename": "https://cdn.arctracker.io/items/equalizer.png",
   "updatedAt": "11/12/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default equalizer;

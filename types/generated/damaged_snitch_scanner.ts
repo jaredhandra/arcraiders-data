@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/damaged_snitch_scanner.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damagedSnitchScanner = {
+export const damagedSnitchScanner: Item = {
   "id": "damaged_snitch_scanner",
   "name": {
     "en": "Damaged Snitch Scanner",
@@ -51,6 +51,6 @@ export const damagedSnitchScanner = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/damaged_snitch_scanner.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default damagedSnitchScanner;

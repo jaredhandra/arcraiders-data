@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/damaged_hornet_driver.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damagedHornetDriver = {
+export const damagedHornetDriver: Item = {
   "id": "damaged_hornet_driver",
   "name": {
     "en": "Damaged Hornet Driver",
@@ -57,6 +57,6 @@ export const damagedHornetDriver = {
   "foundIn": "ARC",
   "updatedAt": "11/06/2025",
   "imageFilename": "https://cdn.arctracker.io/items/damaged_hornet_driver.png"
-} as Item;
+};
 
 export default damagedHornetDriver;

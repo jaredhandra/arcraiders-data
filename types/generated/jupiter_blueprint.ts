@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/jupiter_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const jupiterBlueprint = {
+export const jupiterBlueprint: Item = {
   "id": "jupiter_blueprint",
   "name": {
     "en": "Jupiter Blueprint",
@@ -49,6 +49,6 @@ export const jupiterBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/jupiter.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default jupiterBlueprint;

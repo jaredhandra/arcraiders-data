@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/frequency_modulation_box.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const frequencyModulationBox = {
+export const frequencyModulationBox: Item = {
   "name": {
     "en": "Frequency Modulation Box",
     "de": "Frequenzmodulationsbox",
@@ -55,6 +55,6 @@ export const frequencyModulationBox = {
     "advanced_electrical_components": 1,
     "speaker_component": 1
   }
-} as Item;
+};
 
 export default frequencyModulationBox;

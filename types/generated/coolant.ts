@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/coolant.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const coolant = {
+export const coolant: Item = {
   "id": "coolant",
   "name": {
     "en": "Coolant",
@@ -58,6 +58,6 @@ export const coolant = {
   "salvagesInto": {
     "oil": 2
   }
-} as Item;
+};
 
 export default coolant;

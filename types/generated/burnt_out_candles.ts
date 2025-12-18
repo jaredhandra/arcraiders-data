@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/burnt_out_candles.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const burntOutCandles = {
+export const burntOutCandles: Item = {
   "id": "burnt_out_candles",
   "name": {
     "en": "Burnt-Out Candles",
@@ -51,6 +51,6 @@ export const burntOutCandles = {
   "value": 640,
   "imageFilename": "https://cdn.arctracker.io/items/burnt_out_candles.png",
   "updatedAt": "12/16/2025"
-} as Item;
+};
 
 export default burntOutCandles;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/vita_spray_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const vitaSprayBlueprint = {
+export const vitaSprayBlueprint: Item = {
   "id": "vita_spray_blueprint",
   "name": {
     "en": "Vita Spray Blueprint",
@@ -48,6 +48,6 @@ export const vitaSprayBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/vita_spray.png",
   "rarity": "Legendary",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default vitaSprayBlueprint;

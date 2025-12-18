@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/portable_tv.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const portableTv = {
+export const portableTv: Item = {
   "id": "portable_tv",
   "name": {
     "en": "Portable TV",
@@ -55,6 +55,6 @@ export const portableTv = {
   "stackSize": 1,
   "imageFilename": "https://cdn.arctracker.io/items/portable_tv.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default portableTv;

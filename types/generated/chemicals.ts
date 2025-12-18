@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/chemicals.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const chemicals = {
+export const chemicals: Item = {
   "id": "chemicals",
   "name": {
     "en": "Chemicals",
@@ -51,6 +51,6 @@ export const chemicals = {
   "foundIn": "Medical, Residential, Mechanical",
   "imageFilename": "https://cdn.arctracker.io/items/chemicals.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default chemicals;

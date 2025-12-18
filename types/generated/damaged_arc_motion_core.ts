@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/damaged_arc_motion_core.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damagedArcMotionCore = {
+export const damagedArcMotionCore: Item = {
   "id": "damaged_arc_motion_core",
   "name": {
     "en": "Damaged ARC Motion Core",
@@ -57,6 +57,6 @@ export const damagedArcMotionCore = {
   "salvagesInto": {
     "arc_alloy": 1
   }
-} as Item;
+};
 
 export default damagedArcMotionCore;

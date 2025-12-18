@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/shredder_gyro.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const shredderGyro = {
+export const shredderGyro: Item = {
   "name": {
     "en": "Shredder Gyro",
     "de": "Shredder-Gyroskop",
@@ -55,6 +55,6 @@ export const shredderGyro = {
     "mechanical_components": 3,
     "arc_alloy": 3
   }
-} as Item;
+};
 
 export default shredderGyro;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/junior_outfit.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const juniorOutfit = {
+export const juniorOutfit: Item = {
   "id": "junior_outfit",
   "name": {
     "en": "Junior Outfit",
@@ -46,6 +46,6 @@ export const juniorOutfit = {
   "type": "Cosmetic",
   "updatedAt": "10/30/2025",
   "rarity": "Common"
-} as Item;
+};
 
 export default juniorOutfit;

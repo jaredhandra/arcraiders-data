@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/cat_bed.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const catBed = {
+export const catBed: Item = {
   "id": "cat_bed",
   "name": {
     "en": "Cat Bed",
@@ -52,6 +52,6 @@ export const catBed = {
   "imageFilename": "https://cdn.arctracker.io/items/cat_bed.png",
   "rarity": "Uncommon",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default catBed;

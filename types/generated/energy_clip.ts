@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/energy_clip.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const energyClip = {
+export const energyClip: Item = {
   "id": "energy_clip",
   "name": {
     "en": "Energy Clip",
@@ -60,6 +60,6 @@ export const energyClip = {
   },
   "craftBench": "workbench",
   "craftQuantity": 5
-} as Item;
+};
 
 export default energyClip;

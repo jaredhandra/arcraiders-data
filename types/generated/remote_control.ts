@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/remote_control.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const remoteControl = {
+export const remoteControl: Item = {
   "id": "remote_control",
   "name": {
     "en": "Remote Control",
@@ -58,6 +58,6 @@ export const remoteControl = {
   "foundIn": "Residential",
   "imageFilename": "https://cdn.arctracker.io/items/remote_control.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default remoteControl;

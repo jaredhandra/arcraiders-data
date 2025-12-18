@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/looting_mk3_cautious.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lootingMk3Cautious = {
+export const lootingMk3Cautious: Item = {
   "id": "looting_mk3_cautious",
   "name": {
     "en": "Looting Mk. 3 (Cautious)",
@@ -119,6 +119,6 @@ export const lootingMk3Cautious = {
     "processor": 3
   },
   "craftBench": "equipment_bench"
-} as Item;
+};
 
 export default lootingMk3Cautious;

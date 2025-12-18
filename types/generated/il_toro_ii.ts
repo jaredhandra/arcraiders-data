@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/il_toro_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ilToroIi = {
+export const ilToroIi: Item = {
   "id": "il_toro_ii",
   "name": {
     "en": "Il Toro II",
@@ -184,6 +184,6 @@ export const ilToroIi = {
   },
   "stationLevelRequired": 1,
   "isWeapon": true
-} as Item;
+};
 
 export default ilToroIi;

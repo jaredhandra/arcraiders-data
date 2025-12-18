@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/raider_hatch_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const raiderHatchKey = {
+export const raiderHatchKey: Item = {
   "id": "raider_hatch_key",
   "name": {
     "en": "Raider Hatch Key",
@@ -56,6 +56,6 @@ export const raiderHatchKey = {
     "sensors": 3
   },
   "craftBench": "utility_bench"
-} as Item;
+};
 
 export default raiderHatchKey;

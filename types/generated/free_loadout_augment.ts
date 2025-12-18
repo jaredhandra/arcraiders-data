@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/free_loadout_augment.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const freeLoadoutAugment = {
+export const freeLoadoutAugment: Item = {
   "id": "free_loadout_augment",
   "name": {
     "en": "Free Loadout Augment",
@@ -74,6 +74,6 @@ export const freeLoadoutAugment = {
   "weightKg": 1,
   "imageFilename": "https://cdn.arctracker.io/items/free_loadout_augment.png",
   "updatedAt": "11/16/2025"
-} as Item;
+};
 
 export default freeLoadoutAugment;

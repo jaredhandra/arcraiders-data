@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/damaged_fireball_burner.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damagedFireballBurner = {
+export const damagedFireballBurner: Item = {
   "id": "damaged_fireball_burner",
   "name": {
     "en": "Damaged Fireball Burner",
@@ -54,6 +54,6 @@ export const damagedFireballBurner = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/damaged_fireball_burner.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default damagedFireballBurner;

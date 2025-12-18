@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/signal_amplifier.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const signalAmplifier = {
+export const signalAmplifier: Item = {
   "name": {
     "en": "Signal Amplifier",
     "de": "Signalverstärker",
@@ -55,6 +55,6 @@ export const signalAmplifier = {
     "electrical_components": 2,
     "voltage_converter": 2
   }
-} as Item;
+};
 
 export default signalAmplifier;

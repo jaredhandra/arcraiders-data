@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/coffee_pot.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const coffeePot = {
+export const coffeePot: Item = {
   "id": "coffee_pot",
   "name": {
     "en": "Coffee Pot",
@@ -52,6 +52,6 @@ export const coffeePot = {
   "rarity": "Common",
   "imageFilename": "https://cdn.arctracker.io/items/coffee_pot.png",
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default coffeePot;

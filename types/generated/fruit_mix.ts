@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/fruit_mix.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const fruitMix = {
+export const fruitMix: Item = {
   "id": "fruit_mix",
   "name": {
     "en": "Fruit Mix",
@@ -122,6 +122,6 @@ export const fruitMix = {
   "blueprintLocked": false,
   "imageFilename": "https://cdn.arctracker.io/items/fruit_mix.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default fruitMix;

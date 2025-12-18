@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/extended_shotgun_mag_iii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const extendedShotgunMagIii = {
+export const extendedShotgunMagIii: Item = {
   "id": "extended_shotgun_mag_iii",
   "name": {
     "en": "Extended Shotgun Mag III",
@@ -76,6 +76,6 @@ export const extendedShotgunMagIii = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_iii.png",
   "updatedAt": "11/11/2025"
-} as Item;
+};
 
 export default extendedShotgunMagIii;

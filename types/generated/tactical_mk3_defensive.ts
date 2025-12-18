@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tactical_mk3_defensive.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tacticalMk3Defensive = {
+export const tacticalMk3Defensive: Item = {
   "id": "tactical_mk3_defensive",
   "name": {
     "en": "Tactical Mk. 3 (Defensive)",
@@ -125,6 +125,6 @@ export const tacticalMk3Defensive = {
   "value": 5000,
   "imageFilename": "https://cdn.arctracker.io/items/tactical_mk3_defensive.png",
   "updatedAt": "11/05/2025"
-} as Item;
+};
 
 export default tacticalMk3Defensive;

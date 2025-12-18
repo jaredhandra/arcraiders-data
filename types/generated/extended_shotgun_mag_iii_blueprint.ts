@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/extended_shotgun_mag_iii_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const extendedShotgunMagIiiBlueprint = {
+export const extendedShotgunMagIiiBlueprint: Item = {
   "id": "extended_shotgun_mag_iii_blueprint",
   "name": {
     "en": "Extended Shotgun Mag III Blueprint",
@@ -50,6 +50,6 @@ export const extendedShotgunMagIiiBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/extended_shotgun_mag_iii.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default extendedShotgunMagIiiBlueprint;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/stable_stock_iii_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const stableStockIiiBlueprint = {
+export const stableStockIiiBlueprint: Item = {
   "id": "stable_stock_iii_blueprint",
   "name": {
     "en": "Stable Stock III Blueprint",
@@ -49,6 +49,6 @@ export const stableStockIiiBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/stable_stock_iii.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default stableStockIiiBlueprint;

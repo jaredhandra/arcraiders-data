@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/stella_montis_assembly_admin_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const stellaMontisAssemblyAdminKey = {
+export const stellaMontisAssemblyAdminKey: Item = {
   "name": {
     "en": "Stella Montis Assembly Admin Key",
     "de": "Schlüssel zur Montageverwaltung in Stella Montis",
@@ -49,6 +49,6 @@ export const stellaMontisAssemblyAdminKey = {
   "value": 100,
   "imageFilename": "https://cdn.arctracker.io/items/stella_montis_assembly_admin_key.png",
   "updatedAt": "11/13/2025"
-} as Item;
+};
 
 export default stellaMontisAssemblyAdminKey;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/cooling_coil.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const coolingCoil = {
+export const coolingCoil: Item = {
   "id": "cooling_coil",
   "name": {
     "en": "Cooling Coil",
@@ -55,6 +55,6 @@ export const coolingCoil = {
   "foundIn": "Industrial",
   "imageFilename": "https://cdn.arctracker.io/items/cooling_coil.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default coolingCoil;

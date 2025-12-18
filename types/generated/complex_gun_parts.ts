@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/complex_gun_parts.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const complexGunParts = {
+export const complexGunParts: Item = {
   "id": "complex_gun_parts",
   "name": {
     "en": "Complex Gun Parts",
@@ -60,6 +60,6 @@ export const complexGunParts = {
     "heavy_gun_parts": 2
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default complexGunParts;

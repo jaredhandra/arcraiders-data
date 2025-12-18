@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/blue_radio_renegade_color.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const blueRadioRenegadeColor = {
+export const blueRadioRenegadeColor: Item = {
   "id": "blue_radio_renegade_color",
   "name": {
     "en": "Blue (Radio Renegade Color)",
@@ -47,6 +47,6 @@ export const blueRadioRenegadeColor = {
   "imageFilename": "https://cdn.arctracker.io/items/blue_radio_renegade_color.png",
   "rarity": "Common",
   "updatedAt": "11/10/2025"
-} as Item;
+};
 
 export default blueRadioRenegadeColor;

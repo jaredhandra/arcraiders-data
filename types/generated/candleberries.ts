@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/candleberries.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const candleberries = {
+export const candleberries: Item = {
   "id": "candleberries",
   "name": {
     "en": "Candleberries",
@@ -54,6 +54,6 @@ export const candleberries = {
   "foundIn": "Nature",
   "updatedAt": "12/16/2025",
   "imageFilename": "https://cdn.arctracker.io/items/candleberries.png"
-} as Item;
+};
 
 export default candleberries;

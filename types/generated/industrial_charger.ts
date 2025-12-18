@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/industrial_charger.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const industrialCharger = {
+export const industrialCharger: Item = {
   "id": "industrial_charger",
   "name": {
     "en": "Industrial Charger",
@@ -58,6 +58,6 @@ export const industrialCharger = {
   "foundIn": "Industrial",
   "imageFilename": "https://cdn.arctracker.io/items/industrial_charger.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default industrialCharger;

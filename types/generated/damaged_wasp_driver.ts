@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/damaged_wasp_driver.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damagedWaspDriver = {
+export const damagedWaspDriver: Item = {
   "id": "damaged_wasp_driver",
   "name": {
     "en": "Damaged Wasp Driver",
@@ -57,6 +57,6 @@ export const damagedWaspDriver = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/damaged_wasp_driver.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default damagedWaspDriver;

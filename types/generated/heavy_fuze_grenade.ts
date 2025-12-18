@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/heavy_fuze_grenade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const heavyFuzeGrenade = {
+export const heavyFuzeGrenade: Item = {
   "id": "heavy_fuze_grenade",
   "name": {
     "en": "Heavy Fuze Grenade",
@@ -103,6 +103,6 @@ export const heavyFuzeGrenade = {
     "canister": 2
   },
   "craftBench": "explosives_bench"
-} as Item;
+};
 
 export default heavyFuzeGrenade;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/ferro_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ferroIi = {
+export const ferroIi: Item = {
   "id": "ferro_ii",
   "name": {
     "en": "Ferro II",
@@ -164,6 +164,6 @@ export const ferroIi = {
   "imageFilename": "https://cdn.arctracker.io/items/ferro.png",
   "updatedAt": "11/24/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default ferroIi;

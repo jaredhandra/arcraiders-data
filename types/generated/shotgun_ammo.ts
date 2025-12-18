@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/shotgun_ammo.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const shotgunAmmo = {
+export const shotgunAmmo: Item = {
   "id": "shotgun_ammo",
   "name": {
     "en": "Shotgun Ammo",
@@ -60,6 +60,6 @@ export const shotgunAmmo = {
   },
   "craftBench": "workbench",
   "craftQuantity": 5
-} as Item;
+};
 
 export default shotgunAmmo;

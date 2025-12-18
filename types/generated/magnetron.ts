@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/magnetron.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const magnetron = {
+export const magnetron: Item = {
   "name": {
     "en": "Magnetron",
     "de": "Magnetron",
@@ -55,6 +55,6 @@ export const magnetron = {
     "magnetic_accelerator": 1,
     "steel_spring": 1
   }
-} as Item;
+};
 
 export default magnetron;

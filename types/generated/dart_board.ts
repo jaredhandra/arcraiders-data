@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/dart_board.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const dartBoard = {
+export const dartBoard: Item = {
   "id": "dart_board",
   "name": {
     "en": "Dart Board",
@@ -51,6 +51,6 @@ export const dartBoard = {
   "imageFilename": "https://cdn.arctracker.io/items/dart_board.png",
   "value": 2000,
   "updatedAt": "11/06/2025"
-} as Item;
+};
 
 export default dartBoard;

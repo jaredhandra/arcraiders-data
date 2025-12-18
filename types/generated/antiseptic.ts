@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/antiseptic.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const antiseptic = {
+export const antiseptic: Item = {
   "id": "antiseptic",
   "name": {
     "en": "Antiseptic",
@@ -59,6 +59,6 @@ export const antiseptic = {
     "great_mullein": 2
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default antiseptic;

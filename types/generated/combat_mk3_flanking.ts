@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/combat_mk3_flanking.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const combatMk3Flanking = {
+export const combatMk3Flanking: Item = {
   "id": "combat_mk3_flanking",
   "name": {
     "en": "Combat Mk. 3 (Flanking)",
@@ -235,6 +235,6 @@ export const combatMk3Flanking = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_flanking.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default combatMk3Flanking;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/torrente_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const torrenteIi = {
+export const torrenteIi: Item = {
   "id": "torrente_ii",
   "name": {
     "en": "Torrente II",
@@ -186,6 +186,6 @@ export const torrenteIi = {
   "updatedAt": "11/06/2025",
   "weightKg": 12,
   "isWeapon": true
-} as Item;
+};
 
 export default torrenteIi;

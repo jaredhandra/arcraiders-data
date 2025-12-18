@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/spectrometer.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const spectrometer = {
+export const spectrometer: Item = {
   "name": {
     "en": "Spectrometer",
     "de": "Spektrometer",
@@ -55,6 +55,6 @@ export const spectrometer = {
     "advanced_electrical_components": 1,
     "sensors": 1
   }
-} as Item;
+};
 
 export default spectrometer;

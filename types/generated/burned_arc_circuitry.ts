@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/burned_arc_circuitry.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const burnedArcCircuitry = {
+export const burnedArcCircuitry: Item = {
   "id": "burned_arc_circuitry",
   "name": {
     "en": "Burned Arc Circuitry",
@@ -57,6 +57,6 @@ export const burnedArcCircuitry = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/burned_arc_circuitry.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default burnedArcCircuitry;

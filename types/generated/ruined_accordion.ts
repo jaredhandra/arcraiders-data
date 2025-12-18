@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/ruined_accordion.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ruinedAccordion = {
+export const ruinedAccordion: Item = {
   "id": "ruined_accordion",
   "name": {
     "en": "Ruined Accordion",
@@ -58,6 +58,6 @@ export const ruinedAccordion = {
   "salvagesInto": {
     "rubber_parts": 13
   }
-} as Item;
+};
 
 export default ruinedAccordion;

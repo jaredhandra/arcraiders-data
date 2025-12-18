@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rocketeer_driver.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rocketeerDriver = {
+export const rocketeerDriver: Item = {
   "id": "rocketeer_driver",
   "name": {
     "en": "Rocketeer Driver",
@@ -55,6 +55,6 @@ export const rocketeerDriver = {
   "stackSize": 3,
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/rocketeer_driver.png"
-} as Item;
+};
 
 export default rocketeerDriver;

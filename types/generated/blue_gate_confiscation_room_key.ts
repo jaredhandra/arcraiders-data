@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/blue_gate_confiscation_room_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const blueGateConfiscationRoomKey = {
+export const blueGateConfiscationRoomKey: Item = {
   "id": "blue_gate_confiscation_room_key",
   "name": {
     "en": "Blue Gate Confiscation Room Key",
@@ -49,6 +49,6 @@ export const blueGateConfiscationRoomKey = {
   "imageFilename": "https://cdn.arctracker.io/items/blue_gate_confiscation_room_key.png",
   "value": 100,
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default blueGateConfiscationRoomKey;

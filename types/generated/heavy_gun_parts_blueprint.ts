@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/heavy_gun_parts_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const heavyGunPartsBlueprint = {
+export const heavyGunPartsBlueprint: Item = {
   "id": "heavy_gun_parts_blueprint",
   "name": {
     "en": "Heavy Gun Parts Blueprint",
@@ -50,6 +50,6 @@ export const heavyGunPartsBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/heavy_gun_parts.png",
   "rarity": "Legendary",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default heavyGunPartsBlueprint;

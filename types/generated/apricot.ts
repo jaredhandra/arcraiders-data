@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/apricot.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const apricot = {
+export const apricot: Item = {
   "id": "apricot",
   "name": {
     "en": "Apricot",
@@ -98,6 +98,6 @@ export const apricot = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/apricot.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default apricot;

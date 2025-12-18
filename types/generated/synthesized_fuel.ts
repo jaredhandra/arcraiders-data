@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/synthesized_fuel.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const synthesizedFuel = {
+export const synthesizedFuel: Item = {
   "id": "synthesized_fuel",
   "name": {
     "en": "Synthesized Fuel",
@@ -55,6 +55,6 @@ export const synthesizedFuel = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/synthesized_fuel.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default synthesizedFuel;

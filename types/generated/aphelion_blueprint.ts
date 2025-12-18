@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/aphelion_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const aphelionBlueprint = {
+export const aphelionBlueprint: Item = {
   "id": "aphelion_blueprint",
   "name": {
     "en": "Aphelion Blueprint",
@@ -49,6 +49,6 @@ export const aphelionBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/aphelion.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default aphelionBlueprint;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/first_wave_compass.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const firstWaveCompass = {
+export const firstWaveCompass: Item = {
   "name": {
     "en": "First Wave Compass",
     "de": "Erste-Welle-Kompass",
@@ -48,6 +48,6 @@ export const firstWaveCompass = {
   "imageFilename": "https://cdn.arctracker.io/items/first_wave_compass.png",
   "rarity": "Common",
   "updatedAt": "11/17/2025"
-} as Item;
+};
 
 export default firstWaveCompass;

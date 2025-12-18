@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/blue_gate_communication_tower_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const blueGateCommunicationTowerKey = {
+export const blueGateCommunicationTowerKey: Item = {
   "id": "blue_gate_communication_tower_key",
   "name": {
     "en": "Blue Gate Communication Tower Key",
@@ -50,6 +50,6 @@ export const blueGateCommunicationTowerKey = {
   "value": 100,
   "imageFilename": "https://cdn.arctracker.io/items/blue_gate_communication_tower_key.png",
   "updatedAt": "11/13/2025"
-} as Item;
+};
 
 export default blueGateCommunicationTowerKey;

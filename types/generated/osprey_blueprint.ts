@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/osprey_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ospreyBlueprint = {
+export const ospreyBlueprint: Item = {
   "id": "osprey_blueprint",
   "name": {
     "en": "Osprey Blueprint",
@@ -49,6 +49,6 @@ export const ospreyBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/osprey_blueprint.png",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default ospreyBlueprint;

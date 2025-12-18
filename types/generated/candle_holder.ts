@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/candle_holder.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const candleHolder = {
+export const candleHolder: Item = {
   "id": "candle_holder",
   "name": {
     "en": "Candle Holder",
@@ -57,6 +57,6 @@ export const candleHolder = {
   "salvagesInto": {
     "metal_parts": 4
   }
-} as Item;
+};
 
 export default candleHolder;

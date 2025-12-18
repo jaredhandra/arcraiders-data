@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/surge_shield_recharger.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const surgeShieldRecharger = {
+export const surgeShieldRecharger: Item = {
   "id": "surge_shield_recharger",
   "name": {
     "en": "Surge Shield Recharger",
@@ -102,6 +102,6 @@ export const surgeShieldRecharger = {
     "advanced_arc_powercell": 1
   },
   "craftBench": "med_station"
-} as Item;
+};
 
 export default surgeShieldRecharger;

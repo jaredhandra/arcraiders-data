@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/venator_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const venatorBlueprint = {
+export const venatorBlueprint: Item = {
   "id": "venator_blueprint",
   "name": {
     "en": "Venator Blueprint",
@@ -48,6 +48,6 @@ export const venatorBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/venator.png",
   "rarity": "Legendary",
   "updatedAt": "11/12/2025"
-} as Item;
+};
 
 export default venatorBlueprint;

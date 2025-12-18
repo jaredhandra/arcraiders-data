@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/renegade_ii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const renegadeIi = {
+export const renegadeIi: Item = {
   "id": "renegade_ii",
   "name": {
     "en": "Renegade II",
@@ -211,6 +211,6 @@ export const renegadeIi = {
   "imageFilename": "https://cdn.arctracker.io/items/renegade.png",
   "updatedAt": "11/12/2025",
   "isWeapon": true
-} as Item;
+};
 
 export default renegadeIi;

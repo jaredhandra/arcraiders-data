@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rattler_iii.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rattlerIii = {
+export const rattlerIii: Item = {
   "id": "rattler_iii",
   "name": {
     "en": "Rattler III",
@@ -184,6 +184,6 @@ export const rattlerIii = {
   },
   "stationLevelRequired": 1,
   "isWeapon": true
-} as Item;
+};
 
 export default rattlerIii;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/queen_reactor.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const queenReactor = {
+export const queenReactor: Item = {
   "id": "queen_reactor",
   "tip": "The Queen Reactor is a legendary item only acquired by defeating The Queen that can be recycled into crafting materials.",
   "name": {
@@ -55,6 +55,6 @@ export const queenReactor = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/queen_part.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default queenReactor;

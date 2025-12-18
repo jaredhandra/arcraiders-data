@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rope.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rope = {
+export const rope: Item = {
   "id": "rope",
   "name": {
     "en": "Rope",
@@ -54,6 +54,6 @@ export const rope = {
   "weightKg": 0.3,
   "stackSize": 5,
   "imageFilename": "https://cdn.arctracker.io/items/rope.png"
-} as Item;
+};
 
 export default rope;

@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/ferro_iv.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const ferroIv = {
+export const ferroIv: Item = {
   "id": "ferro_iv",
   "name": {
     "en": "Ferro IV",
@@ -194,6 +194,6 @@ export const ferroIv = {
     }
   },
   "isWeapon": true
-} as Item;
+};
 
 export default ferroIv;

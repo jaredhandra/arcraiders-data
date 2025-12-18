@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/blue_light_stick.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const blueLightStick = {
+export const blueLightStick: Item = {
   "id": "blue_light_stick",
   "name": {
     "en": "Blue Light Stick",
@@ -97,6 +97,6 @@ export const blueLightStick = {
   "recyclesInto": {
     "chemicals": 1
   }
-} as Item;
+};
 
 export default blueLightStick;

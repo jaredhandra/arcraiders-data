@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/torrente_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const torrenteBlueprint = {
+export const torrenteBlueprint: Item = {
   "id": "torrente_blueprint",
   "name": {
     "en": "Torrente Blueprint",
@@ -49,6 +49,6 @@ export const torrenteBlueprint = {
   "imageFilename": "https://cdn.arctracker.io/items/torrente.png",
   "updatedAt": "11/12/2025",
   "value": 5000
-} as Item;
+};
 
 export default torrenteBlueprint;

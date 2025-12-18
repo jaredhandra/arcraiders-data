@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/kinetic_converter.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const kineticConverter = {
+export const kineticConverter: Item = {
   "id": "kinetic_converter",
   "name": {
     "en": "Kinetic Converter",
@@ -118,6 +118,6 @@ export const kineticConverter = {
     "duct_tape": 2
   },
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default kineticConverter;

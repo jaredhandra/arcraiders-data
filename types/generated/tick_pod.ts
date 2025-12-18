@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/tick_pod.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const tickPod = {
+export const tickPod: Item = {
   "id": "tick_pod",
   "name": {
     "en": "Tick Pod",
@@ -58,6 +58,6 @@ export const tickPod = {
   "stackSize": 3,
   "foundIn": "ARC",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default tickPod;

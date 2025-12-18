@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/mini_centrifuge.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const miniCentrifuge = {
+export const miniCentrifuge: Item = {
   "name": {
     "en": "Mini Centrifuge",
     "de": "Minizentrifuge",
@@ -55,6 +55,6 @@ export const miniCentrifuge = {
     "advanced_mechanical_components": 1,
     "canister": 2
   }
-} as Item;
+};
 
 export default miniCentrifuge;

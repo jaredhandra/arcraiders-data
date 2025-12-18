@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/light_gun_parts.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const lightGunParts = {
+export const lightGunParts: Item = {
   "id": "light_gun_parts",
   "name": {
     "en": "Light Gun Parts",
@@ -58,6 +58,6 @@ export const lightGunParts = {
     "simple_gun_parts": 4
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default lightGunParts;

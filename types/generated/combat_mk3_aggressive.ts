@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/combat_mk3_aggressive.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const combatMk3Aggressive = {
+export const combatMk3Aggressive: Item = {
   "id": "combat_mk3_aggressive",
   "name": {
     "en": "Combat Mk. 3 (Aggressive)",
@@ -235,6 +235,6 @@ export const combatMk3Aggressive = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/combat_mk3_aggressive.png",
   "updatedAt": "11/13/2025"
-} as Item;
+};
 
 export default combatMk3Aggressive;

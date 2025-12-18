@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/crude_explosives.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const crudeExplosives = {
+export const crudeExplosives: Item = {
   "id": "crude_explosives",
   "name": {
     "en": "Crude Explosives",
@@ -105,6 +105,6 @@ export const crudeExplosives = {
     "chemicals": 6
   },
   "craftBench": "refiner"
-} as Item;
+};
 
 export default crudeExplosives;

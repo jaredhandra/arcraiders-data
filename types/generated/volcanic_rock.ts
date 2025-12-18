@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/volcanic_rock.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const volcanicRock = {
+export const volcanicRock: Item = {
   "id": "volcanic_rock",
   "name": {
     "en": "Volcanic Rock",
@@ -75,6 +75,6 @@ export const volcanicRock = {
   },
   "imageFilename": "https://cdn.arctracker.io/items/volcanic_rock.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default volcanicRock;

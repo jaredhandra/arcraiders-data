@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/padded_stock_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const paddedStockBlueprint = {
+export const paddedStockBlueprint: Item = {
   "id": "padded_stock_blueprint",
   "name": {
     "en": "Padded Stock Blueprint",
@@ -49,6 +49,6 @@ export const paddedStockBlueprint = {
   "rarity": "Legendary",
   "imageFilename": "https://cdn.arctracker.io/items/padded_stock.png",
   "updatedAt": "11/19/2025"
-} as Item;
+};
 
 export default paddedStockBlueprint;

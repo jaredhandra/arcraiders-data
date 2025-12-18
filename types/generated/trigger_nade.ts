@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/trigger_nade.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const triggerNade = {
+export const triggerNade: Item = {
   "id": "trigger_nade",
   "name": {
     "en": "Trigger 'Nade",
@@ -103,6 +103,6 @@ export const triggerNade = {
     "processor": 1
   },
   "craftBench": "explosives_bench"
-} as Item;
+};
 
 export default triggerNade;

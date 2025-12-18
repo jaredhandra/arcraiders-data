@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/arc_thermo_lining.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const arcThermoLining = {
+export const arcThermoLining: Item = {
   "id": "arc_thermo_lining",
   "name": {
     "en": "ARC Thermo Lining",
@@ -57,6 +57,6 @@ export const arcThermoLining = {
   "foundIn": "ARC",
   "imageFilename": "https://cdn.arctracker.io/items/arc_thermo_lining.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default arcThermoLining;

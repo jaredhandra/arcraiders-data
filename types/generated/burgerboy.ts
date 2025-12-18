@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/burgerboy.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const burgerboy = {
+export const burgerboy: Item = {
   "id": "burgerboy",
   "name": {
     "en": "Burgerboy",
@@ -47,6 +47,6 @@ export const burgerboy = {
   "imageFilename": "https://cdn.arctracker.io/items/burgerboy.png",
   "rarity": "Common",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default burgerboy;

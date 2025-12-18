@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/anvil_i.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const anvilI = {
+export const anvilI: Item = {
   "id": "anvil_i",
   "name": {
     "en": "Anvil I",
@@ -169,6 +169,6 @@ export const anvilI = {
     "simple_gun_parts": 2
   },
   "isWeapon": true
-} as Item;
+};
 
 export default anvilI;

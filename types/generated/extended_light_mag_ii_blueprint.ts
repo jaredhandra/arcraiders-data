@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/extended_light_mag_ii_blueprint.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const extendedLightMagIiBlueprint = {
+export const extendedLightMagIiBlueprint: Item = {
   "id": "extended_light_mag_ii_blueprint",
   "name": {
     "en": "Extended Light Mag II Blueprint",
@@ -49,6 +49,6 @@ export const extendedLightMagIiBlueprint = {
   "weightKg": 0,
   "imageFilename": "https://cdn.arctracker.io/items/extended_light_mag_ii.png",
   "updatedAt": "12/07/2025"
-} as Item;
+};
 
 export default extendedLightMagIiBlueprint;

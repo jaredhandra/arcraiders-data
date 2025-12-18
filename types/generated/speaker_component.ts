@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/speaker_component.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const speakerComponent = {
+export const speakerComponent: Item = {
   "id": "speaker_component",
   "name": {
     "en": "Speaker Component",
@@ -55,6 +55,6 @@ export const speakerComponent = {
   "foundIn": "Commercial",
   "imageFilename": "https://cdn.arctracker.io/items/speaker_component.png",
   "updatedAt": "11/03/2025"
-} as Item;
+};
 
 export default speakerComponent;

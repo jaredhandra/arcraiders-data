@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/dam_testing_annex_key.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const damTestingAnnexKey = {
+export const damTestingAnnexKey: Item = {
   "id": "dam_testing_annex_key",
   "name": {
     "en": "Dam Testing Annex Key",
@@ -49,6 +49,6 @@ export const damTestingAnnexKey = {
   "weightKg": 0.25,
   "imageFilename": "https://cdn.arctracker.io/items/dam_testing_annex_key.png",
   "updatedAt": "10/30/2025"
-} as Item;
+};
 
 export default damTestingAnnexKey;

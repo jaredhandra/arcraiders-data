@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/rubber_duck.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const rubberDuck = {
+export const rubberDuck: Item = {
   "id": "rubber_duck",
   "name": {
     "en": "Rubber Duck",
@@ -51,6 +51,6 @@ export const rubberDuck = {
   "stackSize": 15,
   "imageFilename": "https://cdn.arctracker.io/items/rubber_duck.png",
   "updatedAt": "11/04/2025"
-} as Item;
+};
 
 export default rubberDuck;

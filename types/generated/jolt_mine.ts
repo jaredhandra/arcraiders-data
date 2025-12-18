@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/jolt_mine.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const joltMine = {
+export const joltMine: Item = {
   "id": "jolt_mine",
   "name": {
     "en": "Jolt Mine",
@@ -124,6 +124,6 @@ export const joltMine = {
     "battery": 1
   },
   "craftBench": "explosives_bench"
-} as Item;
+};
 
 export default joltMine;

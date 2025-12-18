@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/radio.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const radio = {
+export const radio: Item = {
   "id": "radio",
   "name": {
     "en": "Radio",
@@ -58,6 +58,6 @@ export const radio = {
   "stackSize": 3,
   "foundIn": "Commercial, Residential",
   "imageFilename": "https://cdn.arctracker.io/items/radio.png"
-} as Item;
+};
 
 export default radio;

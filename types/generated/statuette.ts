@@ -1,7 +1,7 @@
 // AUTO-GENERATED from items/statuette.json — do not edit
-import { Item } from '../common';
+import type { Item } from '../common';
 
-export const statuette = {
+export const statuette: Item = {
   "id": "statuette",
   "name": {
     "en": "Statuette",
@@ -52,6 +52,6 @@ export const statuette = {
   "weightKg": 0.3,
   "imageFilename": "https://cdn.arctracker.io/items/statuette.png",
   "updatedAt": "11/01/2025"
-} as Item;
+};
 
 export default statuette;
