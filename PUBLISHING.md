@@ -5,10 +5,12 @@ Your TypeScript types and data are now ready to publish. Here's how:
 ## Setup
 
 1. **Update `package.json` metadata:**
+
    - Fill in `author`, add a `repository` URL
    - Adjust `version` per [semver](https://semver.org/)
 
 2. **Create `.npmrc`** (if publishing to npm):
+
    ```
    @arcraiders:registry=https://registry.npmjs.org/
    ```
@@ -24,6 +26,7 @@ Your TypeScript types and data are now ready to publish. Here's how:
 ## Publishing
 
 **To npm:**
+
 ```bash
 npm login
 npm publish
@@ -31,10 +34,12 @@ npm publish
 
 **To GitHub Packages:**
 Update `.npmrc`:
+
 ```
 @arcraiders:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN
 ```
+
 Then run `npm publish`.
 
 ## For Consumers
@@ -48,9 +53,10 @@ pnpm add @arcraiders/data
 ```
 
 **TypeScript usage:**
+
 ```typescript
-import { Item, adrenalineShot, advancedArcPowercell } from '@arcraiders/data';
-import type { Item } from '@arcraiders/data/types';
+import { Item, adrenalineShot, advancedArcPowercell } from "@arcraiders/data";
+import type { Item } from "@arcraiders/data/types";
 
 const items: Item[] = [adrenalineShot, advancedArcPowercell];
 ```
@@ -58,13 +64,15 @@ const items: Item[] = [adrenalineShot, advancedArcPowercell];
 ## Local Development (Monorepo)
 
 If using a monorepo, add a `pnpm-workspace.yaml`:
+
 ```yaml
 packages:
-  - 'arcraiders-data'
-  - 'other-projects/*'
+  - "arcraiders-data"
+  - "other-projects/*"
 ```
 
 Then in dependent projects:
+
 ```json
 {
   "dependencies": {
@@ -86,6 +94,7 @@ Then in dependent projects:
 ## Maintenance
 
 When adding new items to `items/`, regenerate types:
+
 ```bash
 pnpm run generate:types
 ```
